@@ -1,0 +1,34 @@
+<template>
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="2270"
+    height="1720"
+    viewBox="0 0 2270 720"
+  >
+    <linearGradient id="gradient6" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="15%" stop-color="#660e4a" />
+      <stop offset="89%" stop-color="#ff00c2" />
+    </linearGradient>
+    <text
+      x="50%"
+      y="50%"
+      text-anchor="middle"
+      fill="black"
+      stroke="url(#gradient6)"
+      stroke-width="3"
+      font-size="1000"
+      font-family="Gwendolyn-Regular"
+      font-style="normal"
+      font-weight="400"
+    >
+      Studio
+    </text>
+  </svg>
+</template>
+<script>
+export default {
+  name: "BackgroundText5",
+};
+</script>
+
+<style scoped></style>

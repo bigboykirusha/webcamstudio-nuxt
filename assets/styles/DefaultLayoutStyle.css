@@ -1,0 +1,441 @@
+@media (min-width: 1601px) {
+  .HeadElement {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+
+    height: 140px;
+
+    z-index: 31;
+  }
+  .HeadTabs {
+    z-index: 31;
+    display: flex;
+  }
+  .HeadTabsLink {
+    color: #696969;
+
+    font-family: "GraphikLCG-Light";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+  }
+  .HeadTabsLink.active {
+    color: #fff;
+  }
+  .HeadTabsItem {
+    margin-right: 15px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  .HeadTabsItem:hover {
+    color: linear-gradient(250.46deg, #e220a5 15.39%, #ff00c2 89.04%);
+    background: linear-gradient(250.46deg, #e220a5 15.39%, #ff00c3 89.04%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+  }
+
+  .HeadLogo {
+    display: flex;
+    /* margin-left: 112px; */
+    /* margin-left: 6.5%; */
+  }
+  .LogoLetters {
+    margin-right: 12px;
+  }
+  .LogoY {
+    margin-right: 4px;
+  }
+  .LogoS {
+    margin-left: 4px;
+    margin-right: 11px;
+  }
+
+  .PhoneIcon {
+    margin-right: 15px;
+    cursor: pointer;
+  }
+
+  .HeadContactTelegram {
+    background: none;
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+  }
+  .Telegram {
+    display: flex;
+    width: 230px;
+    height: 59px;
+    padding: 16px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 86px;
+    border: 1px solid var(--Linear, #660e4a);
+
+    background: none;
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+  }
+  .BurgerMenuButton {
+    display: none;
+  }
+  .BurgerMenuExpanded {
+    display: none;
+  }
+  .overlayMobile {
+    display: none;
+  }
+  .overlayMobile.active {
+    display: none;
+  }
+}
+@media (min-width: 721px) and (max-width: 1600px) {
+  .HeadElement {
+    display: grid;
+    /* grid-template-columns: 650px 70px; */
+    grid-template-columns: 610px 110px;
+    align-items: center;
+
+    width: 100%;
+    height: 140px;
+  }
+  .HeadLogo {
+    margin-left: 210px;
+  }
+  .HeadTabs {
+    display: none;
+  }
+  .flex {
+    display: none;
+  }
+  .HeadContactTelegram {
+    display: none;
+  }
+  .BurgerMenuContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 110px;
+    height: 140px;
+    cursor: pointer;
+  }
+  .BurgerMenuButton {
+    display: block;
+  }
+  .BurgerMenuExpandedFix {
+    z-index: 100;
+    position: relative;
+    width: 1px;
+  }
+  .BurgerMenuExpanded {
+    position: fixed;
+    top: 0;
+    width: 400px;
+    height: 100vh;
+    max-height: 100vh;
+    overflow-y: auto;
+    background-color: rgb(32, 32, 32);
+    right: calc(50% - 360px);
+    z-index: 100;
+  }
+  .CloseBurgerMenuButton {
+    display: block;
+    margin-left: auto;
+    margin-top: 24px;
+    margin-right: 24px;
+  }
+  .BurgerMenuStudioLogo {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 34px;
+  }
+  .BurgerMenuNavElements {
+    margin-top: 20px;
+    /* margin-left: 42px; */
+    display: flex;
+    flex-direction: column;
+    /* row-gap: 20px; */
+  }
+  .BurgerMenuNavElements li {
+    cursor: pointer;
+    list-style-type: none;
+  }
+  .BurgerMenuNavElements li:hover {
+    background-color: #474747;
+  }
+  .BurgerMenuNavElements li:active {
+    background-color: #474747;
+  }
+  .BurgerMenuNavElementLink {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: inherit;
+    padding: 20px 20px 20px 42px;
+  }
+  .BurgerMenuNumberBlock {
+    display: flex;
+    padding: 16px 42px;
+  }
+  .BurgerMenuNumber {
+    display: inline-block;
+    margin-left: 16px;
+  }
+  /* .BurgerMenuTelegram {
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    gap: 10px;
+
+    border-radius: 86px;
+    border: 2px solid #ff00c2;
+    width: 255px;
+  } */
+
+  .BurgerMenuTelegram {
+    width: 255px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    gap: 10px;
+
+    position: relative;
+    border-radius: 86px;
+    overflow: hidden;
+
+    text-decoration: none;
+  }
+
+  .BurgerMenuTelegram::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 86px;
+    padding: 2px;
+    background: var(--text-outline-primary-color);
+
+    -webkit-mask: linear-gradient(#fff 0 0) content-box,
+      linear-gradient(#fff 0 0);
+    -webkit-mask-composite: destination-out;
+    /* new */
+    mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    /* new */
+    mask-composite: exclude;
+    z-index: -1;
+  }
+}
+@media (min-width: 1px) and (max-width: 720px) {
+  .HeadElement {
+    display: grid;
+    /* grid-template-columns: 650px 70px; */
+    /* grid-template-columns: 610px 110px; */
+    grid-template-columns: 82.7% 17.3%;
+    align-items: center;
+    background: #000;
+
+    width: 100%;
+    height: 140px;
+  }
+  .HeadLogo {
+    /* margin-left: 210px; */
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+  }
+  .HeadTabs {
+    display: none;
+  }
+  .flex {
+    display: none;
+  }
+  .HeadContactTelegram {
+    display: none;
+  }
+  .BurgerMenuContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 140px;
+    cursor: pointer;
+  }
+  .BurgerMenuButton {
+    display: block;
+  }
+  .BurgerMenuExpandedFix {
+    z-index: 100;
+    position: relative;
+    width: 1px;
+  }
+  .BurgerMenuExpanded {
+    position: fixed;
+    top: 0;
+    width: 360px;
+    height: 100vh;
+    max-height: 100vh;
+    overflow-y: auto;
+    background-color: rgb(32, 32, 32);
+    /* right: calc(50% - 360px); */
+    right: 0;
+    z-index: 100;
+  }
+  .BurgerMenuFlexFix {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-evenly;
+    height: 90vh;
+    max-height: 760px;
+  }
+  .CloseBurgerMenuButton {
+    display: block;
+    margin-left: auto;
+    margin-top: 24px;
+    margin-right: 24px;
+  }
+  .BurgerMenuStudioLogo {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .BurgerMenuNavElements {
+    /* margin-top: 20px; */
+    /* margin-left: 42px; */
+    display: flex;
+    flex-direction: column;
+    /* row-gap: 20px; */
+  }
+  .BurgerMenuNavElements li {
+    cursor: pointer;
+    list-style-type: none;
+  }
+  .BurgerMenuNavElements li:hover {
+    background-color: #474747;
+  }
+  .BurgerMenuNavElements li:active {
+    background-color: #474747;
+  }
+  .BurgerMenuNavElementLink {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: inherit;
+    padding: 20px 20px 20px 42px;
+  }
+  .BurgerMenuNumberBlock {
+    display: flex;
+    padding: 16px 42px;
+  }
+  .BurgerMenuNumber {
+    display: inline-block;
+    margin-left: 16px;
+  }
+  /* .BurgerMenuTelegram {
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    gap: 10px;
+
+    border-radius: 86px;
+    border: 2px solid #ff00c2;
+    width: 255px;
+  } */
+
+  .BurgerMenuTelegram {
+    width: 255px;
+    height: 56px;
+    /* margin-top: 30px; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    gap: 10px;
+
+    position: relative;
+    border-radius: 86px;
+    /* overflow: hidden; */
+
+    text-decoration: none;
+  }
+
+  .BurgerMenuTelegram::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 86px;
+    padding: 2px;
+    background: var(--text-outline-primary-color);
+
+    -webkit-mask: linear-gradient(#fff 0 0) content-box,
+      linear-gradient(#fff 0 0);
+    -webkit-mask-composite: destination-out;
+    /* new */
+    mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    /* new */
+    mask-composite: exclude;
+    z-index: -1;
+  }
+}
+@media (min-width: 1px) {
+  .HeadContactNumber {
+    cursor: pointer;
+    z-index: 31;
+  }
+  .tel {
+    text-decoration: none;
+  }
+  .Telegram {
+    user-select: none;
+  }
+}

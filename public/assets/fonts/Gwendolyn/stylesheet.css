@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Gwendolyn';
+    src: url('Gwendolyn-Regular.eot');
+    src: local('Gwendolyn Regular'), local('Gwendolyn-Regular'),
+        url('Gwendolyn-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Gwendolyn-Regular.woff2') format('woff2'),
+        url('Gwendolyn-Regular.woff') format('woff'),
+        url('Gwendolyn-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gwendolyn';
+    src: url('Gwendolyn-Bold.eot');
+    src: local('Gwendolyn Bold'), local('Gwendolyn-Bold'),
+        url('Gwendolyn-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Gwendolyn-Bold.woff2') format('woff2'),
+        url('Gwendolyn-Bold.woff') format('woff'),
+        url('Gwendolyn-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+

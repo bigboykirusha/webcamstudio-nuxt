@@ -1,0 +1,595 @@
+@media (min-width: 1601px) {
+  .InteriorTitle {
+    margin-top: 50px;
+    text-align: center;
+
+    color: #fff;
+    font-family: "GraphikLCG-Regular";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 48px;
+  }
+  .InteriorTitleSpan {
+    background: var(--text-outline-primary-color);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    font-family: "GraphikLCG-Regular";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  .InteriorTitleNav {
+    margin-top: 25px;
+    text-align: center;
+
+    color: #696969;
+    font-family: "GraphikLCG-Light";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 16px;
+  }
+  .InteriorTitleNavSpan {
+    display: inline-block;
+    transform: scaleY(2) scaleX(1);
+    transform-origin: center;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .ArticleImg {
+    display: block;
+    /* width: 510px; */
+    max-width: 1598px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+
+    border-radius: 40px;
+
+    box-shadow: 0px 4px 85px 30px rgba(255, 0, 194, 0.3);
+  }
+  .InteriorText {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    max-width: 1568px;
+    /* padding: 66px 131px; */
+
+    color: #fff;
+    font-family: "GraphikLCG-Extralight";
+    /* font-size: 1rem; */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 18px;
+
+    backdrop-filter: blur(10px);
+    background: rgba(55, 47, 53, 0.2);
+    border: double 1px transparent;
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0)),
+      linear-gradient(110deg, #660e4a 15.39%, #ff00c2 89.04%);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    border-radius: 40px;
+
+    backdrop-filter: blur(10px);
+  }
+  .InteriorTextPadding {
+    position: relative;
+    backdrop-filter: blur(10px);
+    z-index: 0;
+    padding: 46px 131px 66px;
+  }
+  .InteriorTextBold {
+    color: #fff;
+    font-family: "GraphikLCG-Regular";
+    /* font-size: 1rem; */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+  }
+  .InteriorTextTitle {
+    color: #fff;
+    font-family: "GraphikLCG-Regular";
+    /* font-size: 1.5rem; */
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+  }
+  .InteriorText p {
+    margin-top: 20px;
+  }
+  .InteriorText ul {
+    margin-top: 20px;
+  }
+  .InteriorText li {
+    margin-top: 20px;
+    margin-left: 24px;
+  }
+  .ArticleShareBlock {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    max-width: 1568px;
+
+    color: #fff;
+    font-family: "GraphikLCG-Extralight";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 18px;
+
+    backdrop-filter: blur(10px);
+    background: rgba(55, 47, 53, 0.2);
+    border: double 1px transparent;
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0)),
+      linear-gradient(110deg, #660e4a 15.39%, #ff00c2 89.04%);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    border-radius: 40px;
+  }
+  .ArticleShareBlockPadding {
+    padding: 35px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+  }
+  .ArticleShareBlockPaddingLeft {
+    column-gap: 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .ArticleShareBlockPaddingRight {
+    column-gap: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .ArticleShareBlockText {
+    margin-right: 6px;
+
+    font-family: "GraphikLCG-ExtraLight";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 32px;
+    text-align: center;
+    text-decoration-line: underline;
+  }
+  .ArticleShareBlockIcons {
+    column-gap: 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .ArticleLikesCount {
+    font-family: "GraphikLCG-Regular";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 32px;
+    text-align: center;
+
+    color: linear-gradient(250.46deg, #660e4a 15.39%, #ff00c2 89.04%);
+    background: linear-gradient(250.46deg, #660e4a 15.39%, #ff00c2 89.04%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+  }
+}
+@media (min-width: 721px) and (max-width: 1600px) {
+  .InteriorTitle {
+    margin-top: 50px;
+    text-align: center;
+
+    color: #fff;
+    font-family: "GraphikLCG-Regular";
+    /* font-size: 3rem; */
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 48px;
+  }
+  .InteriorTitleSpan {
+    background: var(--text-outline-primary-color);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    font-family: "GraphikLCG-Regular";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  .InteriorTitleNav {
+    margin-top: 25px;
+    text-align: center;
+
+    color: #696969;
+    font-family: "GraphikLCG-Light";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 16px;
+  }
+  .InteriorTitleNavSpan {
+    display: inline-block;
+    transform: scaleY(2) scaleX(1);
+    transform-origin: center;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .ArticleImg {
+    display: block;
+    /* width: 510px; */
+    max-width: 718px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+    border-radius: 40px;
+
+    box-shadow: 0px 4px 85px 30px rgba(255, 0, 194, 0.3);
+  }
+  .InteriorText {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 690px;
+    /* padding: 66px 131px; */
+
+    color: #fff;
+    font-family: "GraphikLCG-Extralight";
+    /* font-size: 1rem; */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 18px;
+
+    backdrop-filter: blur(10px);
+    background: rgba(55, 47, 53, 0.2);
+    border: double 1px transparent;
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0)),
+      linear-gradient(110deg, #660e4a 15.39%, #ff00c2 89.04%);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    border-radius: 40px;
+  }
+  .InteriorTextPadding {
+    padding: 26px 60px 50px;
+  }
+  .InteriorTextBold {
+    color: #fff;
+    font-family: "GraphikLCG-Regular";
+    /* font-size: 1rem; */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+  }
+  .InteriorTextTitle {
+    color: #fff;
+    font-family: "GraphikLCG-Regular";
+    /* font-size: 1.5rem; */
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+  }
+  .InteriorText p {
+    margin-top: 20px;
+  }
+  .InteriorText ul {
+    margin-top: 20px;
+  }
+  .InteriorText li {
+    margin-top: 20px;
+    margin-left: 24px;
+  }
+  .ArticleShareBlock {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    max-width: 690px;
+
+    color: #fff;
+    font-family: "GraphikLCG-Extralight";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 18px;
+
+    backdrop-filter: blur(10px);
+    background: rgba(55, 47, 53, 0.2);
+    border: double 1px transparent;
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0)),
+      linear-gradient(110deg, #660e4a 15.39%, #ff00c2 89.04%);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    border-radius: 40px;
+  }
+  .ArticleShareBlockPadding {
+    padding: 25px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+  }
+  .ArticleShareBlockPaddingLeft {
+    column-gap: 16px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .ArticleShareBlockPaddingRight {
+    column-gap: 16px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .ArticleShareBlockText {
+    margin-right: 6px;
+
+    font-family: "GraphikLCG-ExtraLight";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 32px;
+    text-align: center;
+    text-decoration-line: underline;
+  }
+  .ArticleShareBlockIcons {
+    column-gap: 16px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .ArticleLikesCount {
+    font-family: "GraphikLCG-Regular";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 32px;
+    text-align: center;
+
+    color: linear-gradient(250.46deg, #660e4a 15.39%, #ff00c2 89.04%);
+    background: linear-gradient(250.46deg, #660e4a 15.39%, #ff00c2 89.04%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+  }
+}
+@media (min-width: 1px) and (max-width: 720px) {
+  .InteriorTitle {
+    margin-top: 50px;
+    text-align: center;
+
+    color: #fff;
+    font-family: "GraphikLCG-Regular";
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 38px;
+  }
+  .InteriorTitleSpan {
+    background: var(--text-outline-primary-color);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    font-family: "GraphikLCG-Regular";
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  .InteriorTitleNav {
+    margin-top: 25px;
+    text-align: center;
+
+    color: #696969;
+    font-family: "GraphikLCG-Light";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 16px;
+  }
+  .InteriorTitleNavSpan {
+    display: inline-block;
+    transform: scaleY(2) scaleX(1);
+    transform-origin: center;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .ArticleImg {
+    display: block;
+    /* width: 90vw; */
+    max-width: 94vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+
+    border-radius: 40px;
+
+    box-shadow: 0px 4px 45px 16px rgba(255, 0, 194, 0.3);
+  }
+  .InteriorText {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    max-width: 98vw;
+    /* padding: 66px 131px; */
+
+    color: #fff;
+    font-family: "GraphikLCG-Extralight";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 18px;
+
+    backdrop-filter: blur(10px);
+    background: rgba(55, 47, 53, 0.2);
+    border: double 1px transparent;
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0)),
+      linear-gradient(110deg, #660e4a 15.39%, #ff00c2 89.04%);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    border-radius: 40px;
+  }
+  .InteriorTextPadding {
+    padding: 16px 14px 50px;
+  }
+  .InteriorTextBold {
+    color: #fff;
+    font-family: "GraphikLCG-Regular";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+  }
+  .InteriorTextTitle {
+    color: #fff;
+    font-family: "GraphikLCG-Regular";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+  }
+  .InteriorText p {
+    margin-top: 20px;
+  }
+  .InteriorText ul {
+    margin-top: 20px;
+  }
+  .InteriorText li {
+    margin-top: 20px;
+    margin-left: 24px;
+  }
+  .ArticleShareBlock {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    max-width: 98vw;
+
+    color: #fff;
+    font-family: "GraphikLCG-Extralight";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 18px;
+
+    backdrop-filter: blur(10px);
+    background: rgba(55, 47, 53, 0.2);
+    border: double 1px transparent;
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0)),
+      linear-gradient(110deg, #660e4a 15.39%, #ff00c2 89.04%);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    border-radius: 40px;
+  }
+  .ArticleShareBlockPadding {
+    padding: 15px 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+  }
+  .ArticleShareBlockPaddingLeft {
+    column-gap: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .ArticleShareBlockPaddingRight {
+    column-gap: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .ArticleShareBlockText {
+    margin-right: 6px;
+
+    font-family: "GraphikLCG-ExtraLight";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 28px;
+    text-align: center;
+    text-decoration-line: underline;
+  }
+  .ArticleShareBlockText.collapsed {
+    display: none;
+  }
+  .ArticleShareBlockIcons {
+    display: none;
+    /* column-gap: 16px; */
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .ArticleShareBlockIcons.collapsed {
+    column-gap: 12px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .ArticleLikesCount {
+    font-family: "GraphikLCG-Regular";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 28px;
+    text-align: center;
+
+    color: linear-gradient(250.46deg, #660e4a 15.39%, #ff00c2 89.04%);
+    background: linear-gradient(250.46deg, #660e4a 15.39%, #ff00c2 89.04%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+  }
+}
+@media (min-width: 1px) {
+}

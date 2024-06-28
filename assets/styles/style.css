@@ -1,0 +1,5379 @@
+@media (min-width: 1601px) {
+  .QuestionnairePopupBlock {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 550px;
+    height: 510px;
+    max-width: 90%;
+    /* min-height: 500px; */
+    background: rgb(58, 0, 44);
+
+    border: double 1px transparent;
+    border-radius: 40px;
+    background-image: linear-gradient(rgb(58, 0, 44), rgb(58, 0, 44)),
+      linear-gradient(250deg, #660e4a 15.39%, #ff00c2 89.04%);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+
+    transform: translate(-50%, -50%) scale(0);
+    transition: 100ms ease-in-out;
+    z-index: 50;
+
+    max-height: 98vh;
+    overflow-y: auto;
+  }
+
+  .TyPopupBlock {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 350px;
+    height: 150px;
+    max-width: 90%;
+    /* min-height: 500px; */
+    background: rgb(58, 0, 44);
+
+    text-align: center;
+
+    border: double 1px transparent;
+    border-radius: 40px;
+    background-image: linear-gradient(rgb(58, 0, 44), rgb(58, 0, 44)),
+      linear-gradient(250deg, #660e4a 15.39%, #ff00c2 89.04%);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+
+    transform: translate(-50%, -50%) scale(0);
+    transition: 100ms ease-in-out;
+    z-index: 50;
+
+    max-height: 98vh;
+    overflow-y: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .TyPopupBlockPadding {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .TyPopupBlockButton {
+    margin-top: 20px;
+
+    display: flex;
+    width: 144px;
+    height: 49px;
+    padding: 16px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+
+    border-radius: 86px;
+    border: 1px solid var(--Linear, #660e4a);
+    background: linear-gradient(250deg, #660e4a 15.39%, #ff00c2 89.04%);
+  }
+
+  .QuestionnaireFormBottomCheckbox input[type="checkbox"] + label::before {
+    content: "";
+    width: 21px;
+    height: 21px;
+    background-image: url(../../assets/icons/CheckboxUnchecked.svg);
+    margin-right: 14px;
+  }
+  .QuestionnaireFormTop input,
+  select {
+    display: block;
+    width: 490px;
+    height: 40px;
+
+    border-radius: 71px;
+    /* border: 2px solid #b4b4b4; */
+    /* background-color: transparent; */
+    /* background: rgba(255, 0, 194, 0.1); */
+    background: rgb(58, 0, 44);
+    text-align: center;
+    box-sizing: border-box;
+  }
+  .QuestionnaireFormBottomCheckbox
+    input[type="checkbox"]:checked
+    + label::before {
+    content: "";
+    width: 21px;
+    height: 21px;
+    background-image: url(../../assets/icons/CheckboxChecked.svg);
+  }
+  .FinalLine {
+    position: relative;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    border: 0px;
+  }
+
+  /* Background starts */
+
+  .BackgroundTextBlock {
+    position: absolute;
+    z-index: 0;
+  }
+  .BackgroundCircle {
+    position: absolute;
+    z-index: 0;
+  }
+
+  /* Background ends */
+
+  .line-1 {
+    position: relative;
+    display: block;
+
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .QuestionnaireBlock {
+    margin-left: 75px;
+    margin-top: 300px;
+  }
+  .QuestionnaireDescription {
+    margin-top: 12px;
+  }
+  .QuestionnaireButton {
+    margin-top: 54px;
+
+    display: flex;
+    width: 244px;
+    height: 59px;
+    padding: 16px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+
+    border-radius: 86px;
+    border: 1px solid var(--Linear, #660e4a);
+    background: linear-gradient(250deg, #660e4a 15.39%, #ff00c2 89.04%);
+  }
+  /*  */
+  .FillerImage {
+    position: absolute;
+    left: 25%;
+    top: -370px;
+
+    width: 1018px;
+    height: 1107px;
+
+    pointer-events: none;
+    user-select: none;
+  }
+  /* .FillerImageMobile {
+    display: none;
+  } */
+  .EmbeddedVideoBlock {
+    position: absolute;
+    top: -250px;
+    right: 82px;
+  }
+  .EmbeddedVideoBlock2 {
+    width: 406px;
+    height: 406px;
+  }
+  .EmbeddedVideoBlock2Img {
+    width: 406px;
+    height: 406px;
+  }
+  .EmbeddedVideoBlockContainer {
+    position: relative;
+    width: 293px;
+    height: 284px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+  }
+  .EmbeddedVideoBlockImg {
+    width: 293px;
+    height: 284px;
+  }
+  .EmbeddedVideoDescription::after {
+    position: absolute;
+    left: 7%;
+
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 86%;
+    height: 2px;
+    background-image: linear-gradient(250deg, #660e4a 15.39%, #ff00c2 89.04%);
+  }
+  /*  */
+  .line-2 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .Pros {
+    position: relative;
+  }
+  .ProsIcon1 {
+    position: absolute;
+    left: -45px;
+  }
+  .ProsIcon2 {
+    position: absolute;
+    left: 45px;
+    top: 40px;
+  }
+  .ProsIcon3 {
+    position: absolute;
+    left: 35px;
+    top: 40px;
+  }
+  .ProsIcon4 {
+    position: absolute;
+    left: -45px;
+  }
+  .ProsDescription {
+    margin-top: 25px;
+
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .AllPros {
+    margin-top: 390px;
+
+    display: flex;
+    justify-content: space-evenly;
+  }
+  /*  */
+  .line-3 {
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-top: 115px;
+    text-align: center;
+  }
+  .carousel {
+    width: 1230px;
+  }
+  .Card {
+    display: inline-block;
+    position: relative;
+    display: flex;
+    align-items: center;
+
+    border-radius: 40px;
+
+    width: 359px;
+    height: 645px;
+
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  .CardImg {
+    width: 350px;
+    height: 484px;
+
+    position: relative;
+    z-index: 1;
+  }
+  .InteriorCardImg {
+    /* width: 1308px;
+    height: 877px; */
+    /* width: 716px;
+    height: 409px; */
+    width: 840px;
+    height: 561px;
+    aspect-ratio: 1.5;
+
+    margin: 80px 0px;
+    border-radius: 40px;
+    box-shadow: 0px 4px 85px 30px rgba(255, 0, 194, 0.3);
+
+    position: relative;
+    z-index: 1;
+  }
+  .CardBackground {
+    width: 359px;
+    height: 1230px;
+    position: absolute;
+    bottom: 0;
+    z-index: 40;
+    overflow: hidden;
+  }
+  .CardShadow {
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    z-index: 40;
+  }
+  .CardName {
+    /* width: 359px; */
+    position: absolute;
+    /* bottom: 60px; */
+    /* left: -90px; */
+    bottom: 46px;
+    left: 30px;
+    z-index: 50;
+  }
+  .CardDescription {
+    /* width: 359px; */
+    position: absolute;
+    /* bottom: 20px; */
+    /* left: -64px; */
+    bottom: 20px;
+    left: 30px;
+    z-index: 50;
+  }
+
+  /*  */
+  .line-4 {
+    position: relative;
+    margin: 0 auto;
+    /* overflow: hidden; */
+  }
+  .EmploymentDescription {
+    margin-top: 133px;
+
+    text-align: center;
+
+    color: #fff;
+    font-family: "GraphikLCG-Regular";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  .EmploymentStep {
+    position: relative;
+    margin: 0 auto;
+    width: 1578px;
+  }
+  .EmploymentNumberNum {
+    display: block;
+    /* background-color: red; */
+    /* width: 100%; */
+    /* height: 100%; */
+  }
+  .EmploymentNumberNum1 {
+    position: absolute;
+
+    top: 0px;
+    left: -200px;
+  }
+  /* .EmploymentNumOne {
+    display: none;
+  } */
+  .EmploymentNumOneTablet {
+    display: none;
+  }
+  .EmploymentNumOneMobile {
+    display: none;
+  }
+  .EmloymentNumberCircle1 {
+    position: absolute;
+    top: 188px;
+    left: 335px;
+
+    border-radius: 444px;
+    background: #ff00c2;
+    box-shadow: 0px 4px 85px 30px rgba(255, 0, 194, 0.5);
+  }
+  .EmloymentNumberCircle1Mobile {
+    display: none;
+  }
+  .EmploymentNumberText1 {
+    position: absolute;
+    top: 368px;
+    left: 455px;
+
+    text-align: center;
+  }
+  .EmploymentLinePart1 {
+    position: absolute;
+
+    left: 819px;
+    top: 396px;
+  }
+  .EmploymentTextPart1 {
+    position: absolute;
+    left: 1135px;
+    top: 374px;
+
+    text-align: center;
+  }
+
+  .EmploymentNumberNum2 {
+    position: absolute;
+    top: 500px;
+    left: 600px;
+  }
+  .EmploymentNumTwoTablet {
+    display: none;
+  }
+  .EmploymentNumTwoMobile {
+    display: none;
+  }
+  .EmloymentNumberCircle2 {
+    position: absolute;
+    top: 784px;
+    left: 1148px;
+
+    border-radius: 444px;
+    background: #ff00c2;
+    box-shadow: 0px 4px 85px 30px rgba(255, 0, 194, 0.5);
+  }
+  .EmloymentNumberCircle2Mobile {
+    display: none;
+  }
+  .EmploymentNumberText2 {
+    position: absolute;
+    top: 965px;
+    left: 1215px;
+
+    text-align: center;
+  }
+  .EmploymentLinePart2 {
+    position: absolute;
+    top: 1006px;
+    left: 566px;
+  }
+  .EmploymentTextPart2 {
+    position: absolute;
+    left: 192px;
+    top: 962px;
+
+    text-align: center;
+  }
+  /*  */
+  .EmploymentNumberNum3 {
+    position: absolute;
+    left: -80px;
+    top: 1100px;
+  }
+  .EmploymentNumThreeTablet {
+    display: none;
+  }
+  .EmploymentNumThreeMobile {
+    display: none;
+  }
+  .EmloymentNumberCircle3 {
+    position: absolute;
+    left: 335px;
+    top: 1442px;
+
+    border-radius: 444px;
+    background: #ff00c2;
+    box-shadow: 0px 4px 85px 30px rgba(255, 0, 194, 0.5);
+  }
+  .EmloymentNumberCircle3Mobile {
+    display: none;
+  }
+  .EmploymentNumberText3 {
+    position: absolute;
+    left: 476px;
+    top: 1624px;
+
+    text-align: center;
+  }
+  .EmploymentLinePart3 {
+    position: absolute;
+    left: 819px;
+    top: 1655px;
+  }
+  .EmploymentTextPart3 {
+    position: absolute;
+    left: 1135px;
+    top: 1615px;
+
+    text-align: center;
+  }
+  /*  */
+  .EmploymentNumberNum4 {
+    position: absolute;
+    left: 570px;
+    top: 1737px;
+  }
+  .EmploymentNumFourTablet {
+    display: none;
+  }
+  .EmploymentNumFourMobile {
+    display: none;
+  }
+  .EmloymentNumberCircle4 {
+    position: absolute;
+    left: 1148px;
+    top: 2038px;
+
+    border-radius: 444px;
+    background: #ff00c2;
+    box-shadow: 0px 4px 85px 30px rgba(255, 0, 194, 0.5);
+  }
+  .EmloymentNumberCircle4Mobile {
+    display: none;
+  }
+  .EmploymentNumberText4 {
+    position: absolute;
+    left: 1253px;
+    top: 2219px;
+
+    text-align: center;
+  }
+  .EmploymentLinePart4 {
+    position: absolute;
+    left: 566px;
+    top: 2260px;
+  }
+  .EmploymentTextPart4 {
+    position: absolute;
+    left: 212px;
+    top: 2236px;
+
+    text-align: center;
+  }
+  /*  */
+  .line-5 {
+    display: block;
+    width: 1036px;
+    margin: 2732px auto auto auto;
+  }
+  .QuestionnaireButtonLine5 {
+    display: flex;
+    width: 1036px;
+    height: 158px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 103px;
+    opacity: 0.9;
+    background: #ff00c2;
+  }
+  /*  */
+  .line-6 {
+    margin-top: 230px;
+    text-align: center;
+
+    position: relative;
+    display: block;
+    z-index: 30;
+  }
+  /* .FaqTable {
+    display: grid;
+    grid-template-columns: repeat(3, 510px);
+    grid-template-rows: repeat(2, 259px) 496px;
+    column-gap: 19px;
+    row-gap: 28px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 1570px;
+    margin: 124px auto auto auto;
+  } */
+  .FaqTable {
+    width: 1570px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    column-gap: 20px;
+  }
+  .FaqColumn {
+    width: 510px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    row-gap: 24px;
+  }
+  .FaqCard {
+    position: relative;
+    width: 510px;
+    /* height: 259px; */
+    border-radius: 40px;
+    border: 1px solid #ff00c2;
+    background: rgba(55, 47, 53, 0.2);
+    backdrop-filter: blur(10px);
+    overflow: hidden;
+
+    /* transition: height 0.5s ease; */
+  }
+  .FaqCardQuestion {
+    display: flex;
+    height: 250px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+
+    /* margin-top: 50px; */
+    /* padding: 47px; */
+
+    color: #fff;
+    font-family: "GraphikLCG-Regular";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .FaqCardArrow {
+    transition: transform 0.8s ease;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    cursor: pointer;
+  }
+  .FaqCardAnswer {
+    display: flex;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin-bottom: 54px;
+
+    /* display: block; */
+    /* margin-top: 70px; */
+
+    color: #fff;
+    font-family: "GraphikLCG-Extralight";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+  }
+
+  .EmbeddedVideoBlock2 {
+    position: relative;
+    margin-left: auto;
+    margin-top: 90px;
+  }
+  .EmbeddedVideoBlockContainer2 {
+    position: relative;
+    width: 406px;
+    height: 406px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+  }
+
+  /*  */
+  .line-7 {
+    margin-top: 230px;
+  }
+  .IncomeCalculator {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 1568px;
+  }
+  .CalculatorMainGridTable {
+    position: relative;
+    display: flex;
+    width: 1568px;
+  }
+  .CalculatorMainGridTable::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 40px;
+    border: 1px solid #ff00c2;
+    background: rgba(55, 47, 53, 0.2);
+    backdrop-filter: blur(10px);
+    z-index: -1;
+    grid-row: 1/9;
+    grid-column: 1/11;
+  }
+  .CalculatorMainPhoto {
+    display: block;
+    margin-left: 2px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+
+    width: 642px;
+    height: 983px;
+
+    border-radius: 40px 0px 0px 40px;
+  }
+  .CalculatorMainPhotoMobile {
+    display: none;
+  }
+  .CalculatorMainTitle {
+    margin-top: 78px;
+    margin-left: 76px;
+    margin-right: 76px;
+
+    color: #fff;
+    font-family: "GraphikLCG-Regular";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  .CalculatorMainQuestion1 {
+    margin-top: 68px;
+    margin-left: 76px;
+    margin-right: 76px;
+
+    color: #fff;
+    font-family: "GraphikLCG-Regular";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .CalculatorMainAnswerGrid1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    margin-top: 50px;
+    margin-left: 76px;
+    margin-right: 76px;
+  }
+  .CalculatorBigButton {
+    display: flex;
+    width: 242px;
+    height: 106px;
+    padding: 37px 0px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 40px;
+    border: 1px solid #ff00c2;
+    background: linear-gradient(
+      106deg,
+      rgba(55, 47, 53, 0.2) 38.84%,
+      rgba(55, 47, 53, 0) 135.04%
+    );
+    backdrop-filter: blur(10px);
+  }
+  .CalculatorBigButton.active {
+    background: linear-gradient(
+      106deg,
+      rgba(255, 0, 194, 0.2) 38.84%,
+      rgba(255, 0, 194, 0) 135.04%
+    );
+  }
+  .CalculatorSmallButton {
+    display: flex;
+    width: 119px;
+    height: 106px;
+    padding: 37px 0px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 40px;
+    border: 1px solid #ff00c2;
+    background: linear-gradient(
+      106deg,
+      rgba(55, 47, 53, 0.2) 38.84%,
+      rgba(55, 47, 53, 0) 135.04%
+    );
+    backdrop-filter: blur(10px);
+  }
+  .CalculatorSmallButton.active {
+    background: linear-gradient(
+      106deg,
+      rgba(255, 0, 194, 0.2) 38.84%,
+      rgba(255, 0, 194, 0) 135.04%
+    );
+  }
+  .CalculatorMainAnswerGrid1Info {
+    display: none;
+  }
+  .CalculatorMainQuestion2 {
+    margin-top: 50px;
+    margin-left: 76px;
+    margin-right: 76px;
+
+    color: #fff;
+    font-family: "GraphikLCG-Regular";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .CalculatorMainAnswerGrid2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    margin-top: 50px;
+    margin-left: 76px;
+    margin-right: 76px;
+  }
+  .CalculatorMainAnswerGrid2Info {
+    display: none;
+  }
+  .CalculatorMainQuestion3 {
+    margin-top: 50px;
+    margin-left: 76px;
+    margin-right: 76px;
+
+    color: #fff;
+    font-family: "GraphikLCG-Regular";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .CalculatorMainAnswerGrid3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* row-gap: 10px; */
+    flex-wrap: nowrap;
+
+    margin-top: 50px;
+    margin-left: 76px;
+    margin-right: 76px;
+  }
+  .CalculatorMainAnswerGrid3Info {
+    display: none;
+  }
+  .CalculatorResultsGridTable {
+    display: flex;
+    margin-top: 20px;
+  }
+  .CalculatorWeekly {
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 0;
+    padding-top: 30px;
+
+    /* width: 94vw; */
+    width: 501px;
+    height: 190px;
+    flex-shrink: 0;
+    border-radius: 40px;
+    border: 1px solid #fff;
+    background: rgba(55, 47, 53, 0.2);
+    backdrop-filter: blur(10px);
+  }
+  .CalculatorNum {
+    color: #fff;
+    font-family: "GraphikLCG-Regular";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    /* line-height: normal; */
+  }
+  .CalculatorText {
+    color: #fff;
+    font-family: "GraphikLCG-Light";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+  }
+  .CalculatorMonthly {
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 0;
+    padding-top: 30px;
+
+    /* width: 94vw; */
+    width: 501px;
+    height: 190px;
+    flex-shrink: 0;
+    border-radius: 40px;
+    border: 1px solid #fff;
+    background: rgba(55, 47, 53, 0.2);
+    backdrop-filter: blur(10px);
+  }
+  .CalculatorYearly {
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 0;
+    padding-top: 30px;
+
+    /* width: 94vw; */
+    width: 501px;
+    height: 190px;
+    flex-shrink: 0;
+    border-radius: 40px;
+    border: 1px solid #fff;
+    background: rgba(55, 47, 53, 0.2);
+    backdrop-filter: blur(10px);
+  }
+
+  /*  */
+  .line-8 {
+    margin-top: 160px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  .InteriorTitle {
+    text-align: center;
+
+    color: #fff;
+    font-family: "GraphikLCG-Regular";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  .InteriorSliderBlock {
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+
+    display: flex;
+    align-items: center;
+
+    width: 1408px;
+  }
+  .carouselInterior {
+    width: 1308px;
+    display: flex;
+    cursor: pointer;
+    overflow: hidden;
+    user-select: none;
+  }
+  .carouselInterior * {
+    pointer-events: none;
+  }
+  .InteriorSliderCard {
+    width: 1308px;
+    flex-shrink: 0;
+    border-radius: 40px;
+    /* box-shadow: 0px 4px 85px 30px rgba(255, 0, 194, 0.3); */
+  }
+  .ScrollDistanceIndicatorInterior {
+    margin-left: 12px;
+    /* margin-top: 50px; */
+    cursor: pointer;
+  }
+  .ScrollBarDistanceIndicatorInterior {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -30px;
+  }
+  .InteriorMasonry {
+    display: none;
+  }
+  /*  */
+  .line-9 {
+    margin-top: 160px;
+  }
+  .FeaturesTitle {
+    text-align: center;
+  }
+  .FeaturesDescription {
+    text-align: center;
+    margin-top: 42px;
+  }
+  .FeaturesTable {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 212px;
+    margin-right: 212px;
+    margin-top: 57px;
+    text-align: center;
+  }
+  .FeatureTitle {
+    margin-top: 23px;
+  }
+  .FeatureDescription {
+    margin-top: 8px;
+  }
+  /*  */
+  .line-10 {
+    margin-top: 160px;
+    text-align: center;
+  }
+  .FyiTable {
+    width: 1568px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    gap: 160px;
+    justify-content: center;
+  }
+  .Fyi {
+    position: relative;
+  }
+  .FyiImage {
+    width: 100%;
+    height: 100%;
+  }
+  .FyiContent {
+    position: absolute;
+    bottom: -110px;
+    left: -60px;
+
+    padding: 0 48px;
+
+    width: 510px;
+    height: 259px;
+    display: inline-flex;
+    /* padding: 87px 76px 87px 73px; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 13px;
+    flex-shrink: 0;
+    border-radius: 40px;
+    border: 1px solid #ff00c2;
+    background: rgba(55, 47, 53, 0.2);
+    backdrop-filter: blur(15px);
+  }
+  /*  */
+  .line-11 {
+    margin-top: 390px;
+    overflow: hidden;
+  }
+  .HiringTitle {
+    text-align: center;
+  }
+  .HiringTable {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 200px;
+    row-gap: 155px;
+    /* width: 1556px; */
+    width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .HiringPositionTitle {
+    margin-top: 65px;
+    position: relative;
+    z-index: 30;
+  }
+  .HiringPositionDescription {
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    z-index: 30;
+    max-width: 500px;
+    text-align: center;
+  }
+  .HiringPositionButton {
+    margin-top: 34px;
+    margin-left: auto;
+    margin-right: auto;
+
+    display: flex;
+    width: 175px;
+    height: 59px;
+    padding: 16px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 86px;
+    border: 1px solid #660e4a;
+    background: linear-gradient(250deg, #660e4a 15.39%, #ff00c2 89.04%);
+  }
+  .HiringPositionShadow {
+    position: absolute;
+    bottom: -145px;
+    /* bottom: -80px; */
+    left: 0;
+    z-index: 20;
+    /* z-index: -1; */
+  }
+  .HiringPositionImageContainer {
+    position: relative;
+    display: inline-block;
+    z-index: 10;
+  }
+  .HiringPositionImage {
+    position: relative;
+    display: block;
+
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+
+    height: auto;
+    z-index: 10;
+  }
+  /* .HiringPositionImageMobile {
+    display: none;
+  } */
+  .HiringPositionShadowVakancies {
+    z-index: 0;
+  }
+  .HiringPositionBg {
+    position: absolute;
+    z-index: 1;
+  }
+  .HiringPosition1bg {
+    top: 0;
+    left: -80px;
+  }
+  .HiringPosition2bg {
+    top: 0;
+    left: -50px;
+  }
+  .HiringPosition3bg {
+    top: 0;
+    left: -100px;
+  }
+  .HiringPosition4bg {
+    top: 0;
+    left: -160px;
+  }
+  .HiringPosition5bg {
+    top: 0;
+    left: -140px;
+  }
+  .ContactNotification {
+    position: relative;
+    margin-top: 110px;
+    text-align: center;
+  }
+  /*  */
+  .line-12 {
+    margin-top: 180px;
+  }
+  .BlogBlock {
+    width: 1569px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .BlogTitle {
+    text-align: center;
+  }
+  .BlogTable {
+    margin-top: 100px;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    max-width: 1569px;
+    column-gap: 20px;
+    row-gap: 30px;
+  }
+  .BlogBigCard {
+    width: 1039px;
+    height: 600px;
+    border-radius: 40px;
+    border: 1px solid #ff00c2;
+    background: rgba(55, 47, 53, 0.2);
+    backdrop-filter: blur(10px);
+
+    display: grid;
+    grid-template-columns: 518px 521px;
+    grid-template-rows: 127px 383px 90px;
+  }
+  .BlogSmallCard {
+    width: 509px;
+    height: 600px;
+    border-radius: 40px;
+    border: 1px solid #ff00c2;
+    background: rgba(55, 47, 53, 0.2);
+    backdrop-filter: blur(10px);
+
+    display: grid;
+    grid-template-rows: 280px 235px 85px;
+    /* grid-template-rows: 285px 190px 125px; */
+
+    /* white-space: nowrap; */
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .BlogBigCardPhoto {
+    object-fit: cover;
+    object-position: 0 0;
+
+    width: 514px;
+    height: 596px;
+    border-radius: 40px 0px 0px 40px;
+
+    grid-column: 1/2;
+    grid-row: 1/4;
+  }
+  .BlogBigCardPhotoMobile {
+    display: none;
+  }
+  .BlogSmallCardPhoto {
+    object-fit: cover;
+    object-position: 0 0;
+
+    width: 448px;
+    height: 250px;
+    border-radius: 35px;
+    margin-left: 32px;
+    margin-right: 29px;
+    margin-top: 35px;
+
+    grid-row: 1/2;
+  }
+  .BlogSmallCardContent {
+    grid-row: 2/3;
+    /* max-width: 500px; */
+  }
+  .BlogBigCardTitle {
+    margin: 55px 49px auto 59px;
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+  .BlogBigCardTitleFix {
+    position: absolute;
+    top: 0;
+  }
+  .BlogSmallCardTitle {
+    margin: 36px 29px auto 32px;
+  }
+  .BlogBigCardDescription {
+    margin: 30px 49px auto 59px;
+    grid-column: 2/3;
+    grid-row: 2/3;
+
+    /* white-space: nowrap; */
+    /* overflow: hidden; */
+    /* text-overflow: ellipsis; */
+  }
+  .BlogSmallCardDescription {
+    margin: 18px 29px 32px 32px;
+
+    white-space: wrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .BlogBigCardReactions {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 31px;
+    margin-left: 59px;
+
+    grid-row: 3/4;
+  }
+  .BlogSmallCardReactions {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 31px;
+    margin-left: 59px;
+    margin-bottom: 31px;
+    margin-top: auto;
+
+    grid-row: 3/4;
+  }
+  .BlogBigCardReactionsDetails {
+    /* margin: 199px 30px 30px 59px; */
+    grid-column: 2/3;
+    grid-row: 3/4;
+
+    display: flex;
+    width: 244px;
+    height: 59px;
+    padding: 16px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 86px;
+    border: 1px solid #660e4a;
+    background: linear-gradient(250deg, #660e4a 15.39%, #ff00c2 89.04%);
+  }
+  .BlogRedirection {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 180px;
+
+    display: flex;
+    width: 1036px;
+    height: 158px;
+    padding: 0px 288px 0px 289px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 103px;
+    opacity: 0.9;
+    background: #ff00c2;
+
+    color: #fff;
+    font-family: "GraphikLCG-Regular";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+    text-decoration: none;
+  }
+  /*  */
+  .line-13 {
+    margin-top: 180px;
+  }
+  .AdditionalInfoBlock {
+    width: 1568px;
+    /* height: 1140px; */
+    padding: 65px 131px;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    border-radius: 40px;
+    border: 1px solid #ff00c2;
+    background: rgba(55, 47, 53, 0.2);
+    backdrop-filter: blur(10px);
+
+    overflow: hidden;
+    transition: height 0.5s ease;
+  }
+  /* .AdditionalInfoBlock.collapsed {
+    height: 334px;
+  } */
+  /* .AdditionalInfoBlockActiveHelper {
+    margin-bottom: 70px;
+  } */
+  .AdditionalInfoDescription {
+    margin-top: 22px;
+  }
+  .AdditionalInfoArrow {
+    position: absolute;
+    bottom: 26px;
+    right: 26px;
+    transition: transform 0.8s ease;
+  }
+
+  /*  */
+
+  .line-14 {
+    margin-top: 180px;
+  }
+  .MapTemplate {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 1344px;
+    height: 780px;
+    flex-shrink: 0;
+    border-radius: 40px;
+    background: lightgray 50%;
+    z-index: 0;
+  }
+  .MapTemplateIframe {
+    width: 1344px;
+    height: 780px;
+  }
+  .MapTemplateMobile {
+    display: none;
+  }
+  .ContactsTemplate {
+    display: block;
+    margin: -221px auto auto auto;
+
+    width: 775px;
+    height: 542px;
+    flex-shrink: 0;
+    border-radius: 40px;
+    border: 1px solid #ff00c2;
+    background: rgba(255, 0, 194, 0.2);
+    backdrop-filter: blur(10px);
+  }
+  .ContactsTitle {
+    margin-top: 54px;
+    text-align: center;
+
+    background: var(--text-outline-primary-color);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    font-family: "GraphikLCG-Regular";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  .ContactsGrid {
+    display: grid;
+    /* grid-template-columns: 148px 237px 380px; */
+    grid-template-rows: 130px 90px 110px;
+
+    margin-left: 110px;
+    margin-right: 111px;
+
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    text-wrap: nowrap;
+  }
+  .ContactsLocation {
+    grid-row: 1/2;
+
+    display: flex;
+  }
+  .ContactsLocationIconWhite {
+    display: none;
+  }
+  .ContactsLocationText {
+    margin-left: 30px;
+
+    background: var(--text-outline-primary-color);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    font-family: "GraphikLCG-Regular";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+  }
+  .ContactsLocationTextSpan {
+    background: var(--text-outline-primary-color);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    font-family: "GraphikLCG-Regular";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .MetroText {
+    grid-row: 1/2;
+
+    margin-left: 50px;
+
+    background: var(--text-outline-primary-color);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    font-family: "GraphikLCG-Regular";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+  }
+  .MetroTextSpan {
+    background: var(--text-outline-primary-color);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    font-family: "GraphikLCG-Regular";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .ContactsPhone {
+    grid-row: 2/3;
+    grid-column: 1/3;
+
+    display: flex;
+  }
+  .ContactsPhoneNumber {
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 27px;
+  }
+  .ContactsPhoneNumberSpan {
+    /* margin-left: 20px; */
+    margin-left: 0px;
+  }
+  .ContactsTelegram {
+    grid-row: 3/4;
+
+    display: flex;
+  }
+  .ContactsTelegramTag {
+    margin-left: 27px;
+  }
+  .ContactsInstagram {
+    grid-row: 3/4;
+
+    display: flex;
+  }
+  .ContactsInstagramTag {
+    margin-left: 27px;
+  }
+  .ContactsTelegramTagSpan {
+    display: block;
+    margin-top: 5px;
+  }
+  .ContactsTelegramTagSpan,
+  .ContactsInstagramTagSpan {
+    text-decoration: underline;
+  }
+  .ContactsQuestionnaire {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+
+    width: 550px;
+    height: 74px;
+    padding: 25px 45px 25px 46px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 103px;
+    opacity: 0.9;
+    background: #ff00c2;
+
+    color: #fff;
+    font-family: "GraphikLCG-Regular";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  /*  */
+  .line-15 {
+    margin-top: 110px;
+  }
+  .FooterTopLine {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .FooterGrid {
+    display: flex;
+    justify-content: space-around;
+
+    margin-top: 13px;
+  }
+  .PrivacyPolicyLink,
+  .Trademark {
+    text-decoration: underline;
+    background-color: inherit;
+    margin-top: 12px;
+  }
+  .FooterGridArrowUp {
+    cursor: pointer;
+  }
+}
+
+@media (min-width: 721px) and (max-width: 1600px) {
+  .QuestionnairePopupBlock {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 550px;
+    height: 510px;
+    max-width: 90%;
+    /* min-height: 500px; */
+    background: rgb(58, 0, 44);
+
+    border: double 1px transparent;
+    border-radius: 40px;
+    background-image: linear-gradient(rgb(58, 0, 44), rgb(58, 0, 44)),
+      linear-gradient(250deg, #660e4a 15.39%, #ff00c2 89.04%);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+
+    transform: translate(-50%, -50%) scale(0);
+    transition: 100ms ease-in-out;
+    z-index: 50;
+
+    max-height: 98vh;
+    overflow-y: auto;
+  }
+  .TyPopupBlock {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 350px;
+    height: 150px;
+    max-width: 90%;
+    /* min-height: 500px; */
+    background: rgb(58, 0, 44);
+
+    text-align: center;
+
+    border: double 1px transparent;
+    border-radius: 40px;
+    background-image: linear-gradient(rgb(58, 0, 44), rgb(58, 0, 44)),
+      linear-gradient(250deg, #660e4a 15.39%, #ff00c2 89.04%);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+
+    transform: translate(-50%, -50%) scale(0);
+    transition: 100ms ease-in-out;
+    z-index: 50;
+
+    max-height: 98vh;
+    overflow-y: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .TyPopupBlockPadding {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .TyPopupBlockButton {
+    margin-top: 20px;
+
+    display: flex;
+    width: 144px;
+    height: 49px;
+    padding: 16px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+
+    border-radius: 86px;
+    border: 1px solid var(--Linear, #660e4a);
+    background: linear-gradient(250deg, #660e4a 15.39%, #ff00c2 89.04%);
+  }
+
+  .QuestionnaireFormBottomCheckbox input[type="checkbox"] + label::before {
+    content: "";
+    width: 21px;
+    height: 21px;
+    background-image: url(../../assets/icons/CheckboxUnchecked.svg);
+    margin-right: 14px;
+  }
+  .QuestionnaireFormTop input,
+  select {
+    display: block;
+    width: 490px;
+    height: 40px;
+
+    border-radius: 71px;
+    /* border: 2px solid #b4b4b4; */
+    /* background-color: transparent; */
+    /* background: rgba(255, 0, 194, 0.1); */
+    background: rgb(58, 0, 44);
+    text-align: center;
+    box-sizing: border-box;
+  }
+  .QuestionnaireFormBottomCheckbox
+    input[type="checkbox"]:checked
+    + label::before {
+    content: "";
+    width: 21px;
+    height: 21px;
+    background-image: url(../../assets/icons/CheckboxChecked.svg);
+  }
+  .FinalLine {
+    position: relative;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    border: 0px;
+  }
+
+  /* Background starts */
+
+  .BackgroundCircle {
+    display: none;
+  }
+  .BackgroundText {
+    display: none;
+  }
+
+  /* Background ends */
+
+  /*  */
+  .line-1 {
+    position: relative;
+
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .QuestionnaireBlock {
+    position: relative;
+    margin-top: 90px;
+    margin-left: 120px;
+
+    display: block;
+  }
+
+  .QuestionnaireDescription {
+    margin-top: 12px;
+  }
+  .QuestionnaireButton {
+    margin-top: 54px;
+
+    display: flex;
+    width: 244px;
+    height: 59px;
+    padding: 16px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+
+    border-radius: 86px;
+    border: 1px solid var(--Linear, #660e4a);
+    background: linear-gradient(250deg, #660e4a 15.39%, #ff00c2 89.04%);
+  }
+  /*  */
+  .FillerImage {
+    display: block;
+    margin-left: 80px;
+
+    /* height: auto;
+    width: auto; */
+    width: 650px;
+    height: 706px;
+
+    pointer-events: none;
+    user-select: none;
+  }
+  /* .FillerImageMobile {
+    display: none;
+  } */
+  .EmbeddedVideoBlock {
+    position: relative;
+    margin-top: -50px;
+  }
+  .EmbeddedVideoBlock2Img {
+    width: 406px;
+    height: 406px;
+  }
+  .EmbeddedVideoBlockContainer {
+    position: relative;
+    width: 293px;
+    height: 284px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    user-select: none;
+  }
+  .EmbeddedVideoBlockImg {
+    width: 293px;
+    height: 284px;
+  }
+  .EmbeddedVideoDescription::after {
+    position: absolute;
+    left: 32%;
+
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 36%;
+    height: 2px;
+    background-image: linear-gradient(250deg, #660e4a 15.39%, #ff00c2 89.04%);
+  }
+  /*  */
+  .line-2 {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .Pros {
+    position: relative;
+  }
+  .ProsIcon1 {
+    position: absolute;
+    left: -45px;
+  }
+  .ProsIcon2 {
+    position: absolute;
+    left: 45px;
+    top: 40px;
+  }
+  .ProsIcon3 {
+    position: absolute;
+    left: 35px;
+    top: 40px;
+  }
+  .ProsIcon4 {
+    position: absolute;
+    left: -45px;
+  }
+  .ProsDescription {
+    margin-top: 25px;
+
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .AllPros {
+    margin-top: 60px;
+    margin-left: 100px;
+    margin-right: 100px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    row-gap: 55px;
+  }
+  /*  */
+  .line-3 {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-top: 80px;
+    text-align: center;
+  }
+  .carousel {
+    width: 380px;
+  }
+  .Card {
+    display: inline-block;
+    position: relative;
+    display: flex;
+    align-items: center;
+
+    border-radius: 40px;
+    background: #f7f5fa;
+    /* box-shadow: 0px 4px 85px 30px rgba(255, 0, 194, 0.3); */
+
+    width: 290px;
+    height: 480px;
+
+    margin-left: 35px;
+    margin-right: 35px;
+  }
+  .CardImg {
+    /* width: 320px; */
+    width: 290px;
+    height: 401px;
+    /* height: 100%; */
+  }
+  .InteriorCardImg {
+    width: 1308px;
+    position: relative;
+    z-index: 1;
+  }
+  .CardBackground {
+    width: 359px;
+    height: 1230px;
+    position: absolute;
+    bottom: 0;
+    z-index: 40;
+    overflow: hidden;
+  }
+  .CardShadow {
+    position: absolute;
+    bottom: -2px;
+    left: -1px;
+    z-index: 40;
+  }
+  .CardName {
+    /* width: 359px; */
+    position: absolute;
+    /* bottom: 60px;
+    left: -90px; */
+    bottom: 46px;
+    left: 20px;
+    z-index: 50;
+  }
+  .CardDescription {
+    /* width: 359px; */
+    position: absolute;
+    /* bottom: 20px;
+    left: -64px; */
+    bottom: 20px;
+    left: 20px;
+    z-index: 50;
+  }
+  /*  */
+  .line-4 {
+    position: relative;
+    margin: 0 auto;
+    /* overflow: hidden; */
+  }
+  .EmploymentDescription {
+    margin-top: 133px;
+
+    text-align: center;
+
+    color: #fff;
+    font-family: "GraphikLCG-Regular";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  .EmploymentStep {
+    position: relative;
+    margin: 0 auto;
+    width: 680px;
+  }
+  .EmploymentNumberNum {
+    display: block;
+  }
+  .EmploymentNumberNum1 {
+    position: absolute;
+    /* background-color: grey; */
+
+    top: 0px;
+    left: 0px;
+  }
+  .EmploymentNumOne {
+    /* display: none; */
+    width: 0px;
+    height: 0px;
+  }
+  .EmploymentNumOneTablet {
+    position: absolute;
+    display: block;
+    top: -70px;
+    left: -190px;
+
+    z-index: 0;
+  }
+  .EmploymentNumOneMobile {
+    display: none;
+  }
+  .EmloymentNumberCircle1 {
+    display: none;
+  }
+  .EmloymentNumberCircle1Mobile {
+    position: relative;
+    display: block;
+    margin-right: 111px;
+    margin-left: auto;
+    margin-top: 235px;
+
+    border-radius: 340px;
+    background: #ff00c2;
+    box-shadow: 0px 4px 85px 30px rgba(255, 0, 194, 0.5);
+
+    z-index: 30;
+  }
+  .EmploymentNumberText1 {
+    position: absolute;
+    top: 131px;
+    left: 304px;
+
+    text-align: center;
+  }
+  .EmploymentLinePart1 {
+    position: relative;
+    display: block;
+    margin-top: 190px;
+    margin-left: auto;
+    margin-right: auto;
+
+    transform: rotate(90deg);
+  }
+  .EmploymentTextPart1 {
+    margin-top: 170px;
+
+    text-align: center;
+  }
+
+  .EmploymentNumberNum2 {
+    position: absolute;
+    top: 500px;
+    left: 600px;
+  }
+  .EmploymentNumTwo {
+    display: none;
+  }
+  .EmploymentNumTwoTablet {
+    position: absolute;
+    top: -652px;
+    left: -728px;
+  }
+  .EmploymentNumTwoMobile {
+    display: none;
+  }
+  .EmloymentNumberCircle2 {
+    display: none;
+  }
+  .EmloymentNumberCircle2Mobile {
+    position: relative;
+    display: block;
+    margin-right: 60px;
+    margin-left: auto;
+    margin-top: 235px;
+
+    border-radius: 444px;
+    background: #ff00c2;
+    box-shadow: 0px 4px 85px 30px rgba(255, 0, 194, 0.5);
+  }
+  .EmploymentNumberText2 {
+    position: absolute;
+    top: 122px;
+    left: 300px;
+
+    text-align: center;
+  }
+  .EmploymentLinePart2 {
+    position: relative;
+    display: block;
+    margin-top: 190px;
+    margin-left: auto;
+    margin-right: auto;
+
+    transform: rotate(90deg);
+  }
+  .EmploymentTextPart2 {
+    position: relative;
+    margin-top: 190px;
+
+    text-align: center;
+  }
+  /*  */
+  .EmploymentNumberNum3 {
+    position: absolute;
+    left: -80px;
+    top: 1100px;
+  }
+  .EmploymentNumThree {
+    display: none;
+  }
+  .EmploymentNumThreeTablet {
+    position: absolute;
+    left: 0px;
+    top: -1330px;
+  }
+  .EmploymentNumThreeMobile {
+    display: none;
+  }
+  .EmloymentNumberCircle3 {
+    display: none;
+  }
+  .EmloymentNumberCircle3Mobile {
+    position: relative;
+    display: block;
+    margin-right: 80px;
+    margin-left: auto;
+    margin-top: 365px;
+
+    border-radius: 444px;
+    background: #ff00c2;
+    box-shadow: 0px 4px 85px 30px rgba(255, 0, 194, 0.5);
+  }
+  .EmploymentNumberText3 {
+    position: absolute;
+    left: 344px;
+    top: 130px;
+
+    text-align: center;
+  }
+  .EmploymentLinePart3 {
+    position: relative;
+    display: block;
+    margin-top: 190px;
+    margin-left: auto;
+    margin-right: auto;
+
+    transform: rotate(90deg);
+  }
+  .EmploymentTextPart3 {
+    position: relative;
+    margin-top: 190px;
+
+    text-align: center;
+  }
+  /*  */
+  .EmploymentNumberNum4 {
+    position: absolute;
+    left: -140px;
+    top: -165px;
+  }
+  .EmploymentNumFour {
+    display: none;
+  }
+  .EmploymentNumTwoTablet {
+    position: absolute;
+    top: -652px;
+    left: -728px;
+  }
+  .EmploymentNumFourMobile {
+    display: none;
+  }
+  .EmloymentNumberCircle4 {
+    display: none;
+  }
+  .EmloymentNumberCircle4Mobile {
+    position: relative;
+    display: block;
+    margin-right: 60px;
+    margin-left: auto;
+    margin-top: 235px;
+
+    border-radius: 444px;
+    background: #ff00c2;
+    box-shadow: 0px 4px 85px 30px rgba(255, 0, 194, 0.5);
+  }
+  .EmploymentNumberText4 {
+    position: absolute;
+    left: 333px;
+    top: 125px;
+
+    text-align: center;
+  }
+  .EmploymentLinePart4 {
+    position: relative;
+    display: block;
+    margin-top: 190px;
+    margin-left: auto;
+    margin-right: auto;
+
+    transform: rotate(90deg);
+  }
+  .EmploymentTextPart4 {
+    position: relative;
+    margin-top: 190px;
+
+    text-align: center;
+  }
+  /*  */
+  .line-5 {
+    display: block;
+    width: 100%;
+    margin: 70px auto auto auto;
+  }
+  .QuestionnaireButtonLine5 {
+    margin-left: 125px;
+    display: flex;
+    width: 465px;
+    height: 105px;
+    padding: 0px 3px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 103px;
+    opacity: 0.9;
+    background: #ff00c2;
+  }
+  /*  */
+  .line-6 {
+    margin-top: 120px;
+    text-align: center;
+  }
+  /* .FaqTable {
+    display: grid;
+    grid-template-columns: 510px;
+    grid-template-rows: 259px;
+    column-gap: 19px;
+    row-gap: 28px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 513px;
+    margin: 124px auto auto auto;
+  } */
+  .FaqTable {
+    margin-top: 100px;
+    width: 510px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    row-gap: 30px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .FaqColumn {
+    width: 510px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    row-gap: 30px;
+  }
+  .FaqCard {
+    position: relative;
+    width: 510px;
+    /* height: 259px; */
+    border-radius: 40px;
+    border: 1px solid #ff00c2;
+    background: rgba(55, 47, 53, 0.2);
+    backdrop-filter: blur(10px);
+    overflow: hidden;
+
+    transition: height 0.5s ease;
+  }
+  .FaqCardQuestion {
+    display: flex;
+    height: 250px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+
+    /* margin-top: 43px; */
+    /* padding: 47px; */
+
+    color: #fff;
+    font-family: "GraphikLCG-Regular";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .FaqCardArrow {
+    transition: transform 0.8s ease;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+  }
+  .FaqCardAnswer {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin-bottom: 54px;
+
+    /* display: block; */
+    /* margin-top: 70px; */
+
+    color: #fff;
+    font-family: "GraphikLCG-Extralight";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+  }
+  .EmbeddedVideoBlockContainer2 {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+  }
+
+  /*  */
+
+  .line-7 {
+    margin-top: 100px;
+  }
+  .IncomeCalculator {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 680px;
+  }
+  .CalculatorMainGridTable {
+    position: relative;
+    display: flex;
+    width: 680px;
+  }
+  .CalculatorMainGridTable::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 40px;
+    border: 1px solid #ff00c2;
+    background: rgba(55, 47, 53, 0.2);
+    backdrop-filter: blur(10px);
+    z-index: -1;
+  }
+  .CalculatorMainPhoto {
+    display: none;
+  }
+  .CalculatorMainPhotoMobile {
+    margin-top: 60px;
+    margin-bottom: 2px;
+
+    display: block;
+    margin-left: 2px;
+    margin-right: 2px;
+
+    width: 676px;
+    height: 633px;
+
+    border-radius: 0px 0px 40px 40px;
+  }
+  .CalculatorMainTitle {
+    margin-top: 70px;
+    margin-left: 32px;
+    margin-right: 32px;
+
+    color: #fff;
+    font-family: "GraphikLCG-Regular";
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .CalculatorMainQuestion1 {
+    margin-top: 40px;
+    margin-left: 32px;
+    margin-right: 32px;
+
+    color: #fff;
+    font-family: "GraphikLCG-ExtraLight";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+  }
+  .CalculatorMainAnswerGrid1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    margin-top: 40px;
+    margin-left: 32px;
+    margin-right: 32px;
+  }
+  .CalculatorBigButton {
+    display: flex;
+    width: 196px;
+    height: 106px;
+    padding: 37px 0px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 30px;
+    border: 1px solid #ff00c2;
+    background: linear-gradient(
+      106deg,
+      rgba(55, 47, 53, 0.2) 38.84%,
+      rgba(55, 47, 53, 0) 135.04%
+    );
+    backdrop-filter: blur(10px);
+  }
+  .CalculatorBigButton.active {
+    background: linear-gradient(
+      106deg,
+      rgba(255, 0, 194, 0.2) 38.84%,
+      rgba(255, 0, 194, 0) 135.04%
+    );
+  }
+  .CalculatorSmallButton {
+    display: flex;
+    width: 96px;
+    height: 106px;
+    padding: 37px 0px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 30px;
+    border: 1px solid #ff00c2;
+    background: linear-gradient(
+      106deg,
+      rgba(55, 47, 53, 0.2) 38.84%,
+      rgba(55, 47, 53, 0) 135.04%
+    );
+    backdrop-filter: blur(10px);
+  }
+  .CalculatorSmallButton.active {
+    background: linear-gradient(
+      106deg,
+      rgba(255, 0, 194, 0.2) 38.84%,
+      rgba(255, 0, 194, 0) 135.04%
+    );
+  }
+  .CalculatorMainAnswerGrid1Info {
+    display: none;
+  }
+  .CalculatorMainQuestion2 {
+    margin-top: 40px;
+    margin-left: 34px;
+    margin-right: 34px;
+
+    color: #fff;
+    font-family: "GraphikLCG-ExtraLight";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+  }
+  .CalculatorMainAnswerGrid2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    margin-top: 40px;
+    margin-left: 34px;
+    margin-right: 34px;
+  }
+  .CalculatorMainAnswerGrid2Info {
+    display: none;
+  }
+  .CalculatorMainQuestion3 {
+    margin-top: 40px;
+    margin-left: 34px;
+    margin-right: 34px;
+
+    color: #fff;
+    font-family: "GraphikLCG-ExtraLight";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+  }
+  .CalculatorMainAnswerGrid3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    row-gap: 10px;
+    flex-wrap: wrap;
+
+    margin-top: 40px;
+    margin-left: 34px;
+    margin-right: 34px;
+  }
+  .CalculatorMainAnswerGrid3Info {
+    display: none;
+  }
+  .CalculatorWeekly {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 0;
+    padding-top: 30px;
+
+    width: 501px;
+    height: 160px;
+    flex-shrink: 0;
+    border-radius: 40px;
+    border: 1px solid #fff;
+    background: rgba(55, 47, 53, 0.2);
+    backdrop-filter: blur(10px);
+  }
+  .CalculatorNum {
+    color: #fff;
+    font-family: "GraphikLCG-Regular";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    /* line-height: normal; */
+  }
+  .CalculatorText {
+    color: #fff;
+    font-family: "GraphikLCG-Light";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+  }
+  .CalculatorMonthly {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 0;
+    padding-top: 30px;
+
+    width: 501px;
+    height: 160px;
+    flex-shrink: 0;
+    border-radius: 40px;
+    border: 1px solid #fff;
+    background: rgba(55, 47, 53, 0.2);
+    backdrop-filter: blur(10px);
+  }
+  .CalculatorYearly {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 0;
+    padding-top: 30px;
+
+    width: 501px;
+    height: 160px;
+    flex-shrink: 0;
+    border-radius: 40px;
+    border: 1px solid #fff;
+    background: rgba(55, 47, 53, 0.2);
+    backdrop-filter: blur(10px);
+  }
+  /*  */
+  .line-8 {
+    margin-top: 80px;
+  }
+  .InteriorTitle {
+    text-align: center;
+
+    color: #fff;
+    font-family: "GraphikLCG-Regular";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  .InteriorSliderBlock * {
+    display: none;
+  }
+  .carouselInterior {
+    width: 470px;
+    display: flex;
+    cursor: pointer;
+    overflow: hidden;
+    user-select: none;
+  }
+  .carouselInterior * {
+    pointer-events: none;
+  }
+  .InteriorSliderCard {
+    width: 470px;
+    flex-shrink: 0;
+    border-radius: 40px;
+    /* box-shadow: 0px 4px 85px 30px rgba(255, 0, 194, 0.3); */
+  }
+  .ScrollDistanceIndicatorInterior {
+    display: none;
+    margin-left: 12px;
+    /* margin-top: 50px; */
+    cursor: pointer;
+  }
+  .ScrollBarDistanceIndicatorInterior {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -30px;
+  }
+  .InteriorMasonry {
+    margin-top: 40px;
+    display: block;
+    position: relative;
+  }
+  .InteriorPicture {
+    display: block;
+    position: relative;
+
+    height: 100%;
+    width: 96vw;
+    max-width: 710px;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 14px;
+  }
+  .InteriorZoomableBlock {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+
+    max-width: 100vw;
+    max-height: 90vh;
+    height: auto;
+
+    transform: translate(-50%, -50%) scale(0);
+    transition: 100ms ease-in-out;
+    z-index: 50;
+  }
+  .InteriorZoomableBlock.active {
+    transform: translate(-50%, -50%) scale(1);
+  }
+  /*  */
+  .line-9 {
+    margin-top: 70px;
+  }
+  .FeaturesTitle {
+    text-align: center;
+  }
+  .FeaturesDescription {
+    display: none;
+  }
+  .FeaturesTable {
+    margin-top: 57px;
+    width: 540px;
+    margin-left: auto;
+    margin-right: auto;
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    row-gap: 65px;
+
+    text-align: center;
+  }
+  .FeatureTitle {
+    margin-top: 23px;
+  }
+  .FeatureDescription {
+    margin-top: 8px;
+  }
+  /*  */
+  .line-10 {
+    margin-top: 70px;
+    text-align: center;
+  }
+  .FyiTable {
+    width: 515px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    display: flex;
+    flex-flow: column;
+    flex-wrap: wrap;
+    gap: 140px;
+  }
+  .Fyi {
+    position: relative;
+  }
+  .FyiImage {
+    width: 371px;
+    height: 371px;
+  }
+  .FyiContent {
+    position: absolute;
+    bottom: -110px;
+    left: 0px;
+
+    padding: 0 20px;
+
+    width: 510px;
+    height: 259px;
+    display: inline-flex;
+    /* padding: 87px 76px 87px 73px; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* gap: 13px; */
+    row-gap: 30px;
+    flex-shrink: 0;
+    border-radius: 40px;
+    border: 1px solid #ff00c2;
+    background: rgba(55, 47, 53, 0.2);
+    backdrop-filter: blur(15px);
+  }
+  /*  */
+  .line-11 {
+    margin-top: 200px;
+    overflow: hidden;
+  }
+  .HiringTitle {
+    text-align: center;
+  }
+  .HiringTable {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 200px;
+    row-gap: 115px;
+    /* width: 1556px; */
+    width: 720px;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .HiringPositionTitle {
+    margin-top: 35px;
+    position: relative;
+    z-index: 30;
+  }
+  .HiringPositionDescription {
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+
+    position: relative;
+    z-index: 30;
+    max-width: 90%;
+  }
+  .HiringPositionButton {
+    margin-top: 34px;
+    margin-left: auto;
+    margin-right: auto;
+
+    display: flex;
+    width: 175px;
+    height: 59px;
+    padding: 16px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 86px;
+    border: 1px solid #660e4a;
+    background: linear-gradient(250deg, #660e4a 15.39%, #ff00c2 89.04%);
+  }
+  .HiringPositionShadow {
+    position: absolute;
+    bottom: -145px;
+    /* bottom: -80px; */
+    left: 0;
+    z-index: 20;
+    /* z-index: -1; */
+  }
+  .HiringPositionImageContainer {
+    position: relative;
+    display: inline-block;
+    z-index: 10;
+  }
+  .HiringPositionImage {
+    position: relative;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    z-index: 10;
+  }
+  /* .HiringPositionImageMobile {
+    display: none;
+  } */
+  .HiringPositionBg {
+    position: absolute;
+    z-index: 1;
+    max-width: 720px;
+  }
+  .HiringPosition1bg {
+    top: -20px;
+    left: 0px;
+  }
+  .HiringPosition2bg {
+    top: 0;
+    left: -50px;
+  }
+  .HiringPosition3bg {
+    top: 0;
+    left: -70px;
+  }
+  .HiringPosition4bg {
+    top: 0;
+    left: -30px;
+  }
+  .HiringPosition5bg {
+    top: 0;
+    left: -30px;
+  }
+  .ContactNotification {
+    width: 510px;
+    margin-top: 90px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /*  */
+  .line-12 {
+    margin-top: 110px;
+  }
+  .BlogBlock {
+    width: 510px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .BlogTitle {
+    text-align: center;
+  }
+  .BlogTable {
+    margin-top: 60px;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    max-width: 1569px;
+    column-gap: 20px;
+    row-gap: 30px;
+  }
+  .BlogBigCard {
+    width: 509px;
+    height: 600px;
+    border-radius: 40px;
+    border: 1px solid #ff00c2;
+    background: rgba(55, 47, 53, 0.2);
+    backdrop-filter: blur(10px);
+
+    display: grid;
+    grid-template-rows: 285px 190px 125px;
+  }
+  .BlogSmallCard {
+    width: 509px;
+    height: 600px;
+    border-radius: 40px;
+    border: 1px solid #ff00c2;
+    background: rgba(55, 47, 53, 0.2);
+    backdrop-filter: blur(10px);
+
+    display: grid;
+    grid-template-rows: 285px 190px 125px;
+
+    /* white-space: nowrap; */
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .BlogBigCardPhoto {
+    display: none;
+  }
+  .BlogBigCardPhotoMobile {
+    width: 448px;
+    height: 250px;
+    border-radius: 35px;
+    margin-left: 32px;
+    margin-right: 29px;
+    margin-top: 35px;
+
+    grid-row: 1/2;
+  }
+  .BlogSmallCardPhoto {
+    object-fit: cover;
+    object-position: 0 0;
+
+    width: 448px;
+    height: 250px;
+    border-radius: 35px;
+    margin-left: 32px;
+    margin-right: 29px;
+    margin-top: 35px;
+
+    grid-row: 1/2;
+  }
+  .BlogSmallCardContent {
+    grid-row: 2/3;
+  }
+  .BlogBigCardTitle {
+    margin: 36px 29px auto 32px;
+  }
+  .BlogSmallCardTitle {
+    margin: 36px 29px auto 32px;
+  }
+  .BlogBigCardDescription {
+    margin: 18px 29px auto 32px;
+    width: 450px;
+    height: 74px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+  }
+  .BlogSmallCardDescription {
+    margin: 18px 29px 32px 32px;
+  }
+  .BlogBigCardReactions {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 31px;
+    margin-left: 59px;
+    margin-bottom: 31px;
+    margin-top: auto;
+
+    grid-row: 3/4;
+  }
+  .BlogSmallCardReactions {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 31px;
+    margin-left: 59px;
+    margin-bottom: 31px;
+    margin-top: auto;
+
+    grid-row: 3/4;
+  }
+  .BlogBigCardReactionsDetails {
+    /* margin: 199px 30px 30px 59px; */
+    grid-column: 2/3;
+    grid-row: 3/4;
+
+    display: flex;
+    width: 244px;
+    height: 59px;
+    padding: 16px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 86px;
+    border: 1px solid #660e4a;
+    background: linear-gradient(250deg, #660e4a 15.39%, #ff00c2 89.04%);
+  }
+  .BlogRedirection {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 90px;
+
+    display: flex;
+    width: 465px;
+    height: 105px;
+    padding: 0px 28px 0px 28px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 103px;
+    opacity: 0.9;
+    background: #ff00c2;
+
+    color: #fff;
+    font-family: "GraphikLCG-Regular";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+    text-decoration: none;
+  }
+  /*  */
+  .line-13 {
+    margin-top: 90px;
+  }
+  .AdditionalInfoBlock {
+    width: 680px;
+    min-width: 360px;
+    /* padding: 25px 25px 0px 25px; */
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    border: 1px solid #ff00c2;
+    border-radius: 40px;
+    background: rgba(55, 47, 53, 0.2);
+    backdrop-filter: blur(10px);
+
+    overflow: hidden;
+    transition: height 0.5s ease;
+  }
+  .AdditionalInfoBlockPadding {
+    position: relative;
+    margin: 25px 25px 50px 25px;
+  }
+  .AdditionalInfoBlockPadding.expanded {
+    margin: 25px 25px -10px 25px;
+  }
+  /* .AdditionalInfoBlock.collapsed {
+    padding: 25px 25px 64px 25px;
+  } */
+  .AdditionalInfoDescription {
+    margin-top: 22px;
+  }
+  .AdditionalInfoArrow {
+    position: absolute;
+    bottom: -36px;
+    right: -16px;
+    transition: transform 0.8s ease;
+  }
+  .AdditionalInfoArrow.collapsed {
+    position: relative;
+    display: block;
+    margin: 0 0 24px auto;
+    transition: transform 0.8s ease;
+
+    bottom: 0px;
+    right: 0px;
+  }
+
+  /*  */
+
+  .line-14 {
+    margin-top: 70px;
+  }
+  .MapTemplate {
+    display: none;
+  }
+  .MapTemplateMobile {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 680px;
+    height: 780px;
+    max-height: 80vh;
+    flex-shrink: 0;
+    border-radius: 40px;
+    background: lightgray 50%;
+    z-index: 0;
+  }
+  .MapTemplateMobileIframe {
+    /* width: 680px; */
+    /* height: 780px; */
+    /* max-height: 80vh; */
+    width: 98vw;
+    max-width: 680px;
+    height: 780px;
+  }
+  .ContactsTemplate {
+    display: block;
+    margin: -80px auto auto auto;
+
+    width: 470px;
+    height: 716px;
+    flex-shrink: 0;
+    border-radius: 40px;
+    border: 1px solid #ff00c2;
+    background: rgba(255, 0, 194, 0.2);
+    backdrop-filter: blur(10px);
+  }
+  .ContactsTitle {
+    margin-top: 38px;
+    text-align: center;
+
+    background: var(--text-outline-primary-color);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    font-family: "GraphikLCG-Regular";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  .ContactsGrid {
+    position: relative;
+    display: grid;
+    /* grid-template-columns: 148px 237px 380px; */
+    grid-template-rows: 90px 50px 140px 100px 100px;
+
+    margin-left: 110px;
+    margin-right: 111px;
+
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    text-wrap: nowrap;
+  }
+  .ContactsLocation {
+    grid-row: 1/2;
+    grid-column: 1/2;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+
+    display: flex;
+  }
+  .ContactsLocationIcon {
+    display: none;
+  }
+  .ContactsLocationIconWhite {
+    margin-top: 10px;
+  }
+  .ContactsLocationText {
+    margin-left: 30px;
+
+    color: #fff;
+    font-family: "GraphikLCG-Extralight";
+    /* font-size: 1.5rem; */
+    font-size: 24px;
+    /* font-size: 14px; */
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+  }
+  .ContactsLocationTextSpan {
+    color: #fff;
+    font-family: "GraphikLCG-Regular";
+    /* font-size: 1.5rem; */
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .MetroText {
+    grid-row: 2/3;
+    grid-column: 1/2;
+    margin-right: auto;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    margin-left: 92px;
+
+    color: #fff;
+    font-family: "GraphikLCG-Extralight";
+    /* font-size: 1.5rem; */
+    font-size: 24px;
+    /* font-size: 14px; */
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+  }
+  .MetroTextSpan {
+    color: #fff;
+    font-family: "GraphikLCG-Regular";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .ContactsPhone {
+    position: relative;
+    grid-row: 3/4;
+    grid-column: 1/2;
+    margin-left: 20px;
+    margin-top: -5px;
+    margin-right: auto;
+
+    display: flex;
+  }
+  .ContactsPhoneNumber {
+    position: absolute;
+    /* left: 174px;
+    top: 256px; */
+    left: 80px;
+    top: 0px;
+  }
+  .ContactsPhoneNumberSpan {
+    /* margin-left: 20px; */
+    position: absolute;
+    left: 0px;
+    top: 30px;
+  }
+  .ContactsTelegram {
+    grid-row: 4/5;
+    grid-column: 1/2;
+    margin-left: 20px;
+    margin-right: auto;
+
+    display: flex;
+  }
+  .ContactsTelegramTag {
+    margin-left: 27px;
+  }
+  .ContactsInstagram {
+    grid-row: 5/6;
+    grid-column: 1/2;
+    margin-left: 20px;
+    margin-right: auto;
+
+    display: flex;
+  }
+  .ContactsInstagramTag {
+    margin-left: 27px;
+  }
+  .ContactsTelegramTagSpan {
+    display: block;
+    margin-top: 5px;
+  }
+  .ContactsTelegramTagSpan,
+  .ContactsInstagramTagSpan {
+    text-decoration: underline;
+  }
+  .ContactsQuestionnaire {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+
+    width: 376px;
+    height: 74px;
+    padding: 25px 45px 25px 46px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 103px;
+    opacity: 0.9;
+    background: #ff00c2;
+
+    color: #fff;
+    font-family: "GraphikLCG-Regular";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  /*  */
+  .line-15 {
+    margin-top: 50px;
+  }
+  .FooterTopLine {
+    display: block;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .FooterGrid {
+    display: grid;
+    grid-template-columns: 90% 10%;
+    grid-template-rows: 50% 50%;
+
+    margin-top: 18px;
+  }
+  .PrivacyPolicyLink {
+    text-decoration: underline;
+    background-color: inherit;
+    margin-top: 12px;
+    margin-left: 20px;
+
+    grid-column: 1/2;
+    grid-row: 1/2;
+    text-align: left;
+  }
+  .Trademark {
+    text-decoration: underline;
+    margin-top: 6px;
+    margin-left: 20px;
+
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+  .FooterGridArrowUp {
+    margin-top: 10px;
+    cursor: pointer;
+  }
+}
+
+@media (min-width: 1px) and (max-width: 720px) {
+  .FinalLine {
+    position: relative;
+    margin-top: 24px;
+    margin-bottom: 0px;
+    border: 0px;
+  }
+
+  /* Background starts */
+
+  .BackgroundCircle {
+    display: none;
+  }
+  .BackgroundText {
+    display: none;
+  }
+
+  /* Background ends */
+
+  /*  */
+  .line-1 {
+    position: relative;
+
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .QuestionnairePopupBlock {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* width: 550px;
+    max-width: 96vw; */
+    width: 96vw;
+    max-width: 500px;
+    max-height: 90vh;
+    min-height: 300px;
+    /* height: 510px; */
+    /* max-width: 96%; */
+    background: rgb(58, 0, 44);
+
+    border: double 1px transparent;
+    border-radius: 40px;
+    background-image: linear-gradient(rgb(58, 0, 44), rgb(58, 0, 44)),
+      linear-gradient(250deg, #660e4a 15.39%, #ff00c2 89.04%);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+
+    transform: translate(-50%, -50%) scale(0);
+    transition: 100ms ease-in-out;
+    z-index: 50;
+
+    /* max-height: 98vh; */
+    overflow-y: auto;
+  }
+  .TyPopupBlock {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 300px;
+    height: 130px;
+    max-width: 90%;
+    /* min-height: 500px; */
+    background: rgb(58, 0, 44);
+
+    text-align: center;
+
+    border: double 1px transparent;
+    border-radius: 40px;
+    background-image: linear-gradient(rgb(58, 0, 44), rgb(58, 0, 44)),
+      linear-gradient(250deg, #660e4a 15.39%, #ff00c2 89.04%);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+
+    transform: translate(-50%, -50%) scale(0);
+    transition: 100ms ease-in-out;
+    z-index: 50;
+
+    max-height: 98vh;
+    overflow-y: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .TyPopupBlockPadding {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .TyPopupBlockButton {
+    margin-top: 20px;
+
+    display: flex;
+    width: 144px;
+    height: 49px;
+    padding: 16px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+
+    border-radius: 86px;
+    border: 1px solid var(--Linear, #660e4a);
+    background: linear-gradient(250deg, #660e4a 15.39%, #ff00c2 89.04%);
+  }
+
+  .QuestionnaireFormBottomCheckbox input[type="checkbox"] + label::before {
+    content: "";
+    min-width: 21px;
+    height: 21px;
+    background-image: url(../../assets/icons/CheckboxUnchecked.svg);
+    margin-right: 14px;
+  }
+  .QuestionnaireFormTop input,
+  select {
+    display: block;
+    width: 96%;
+    max-width: 96vw;
+    height: 40px;
+
+    border-radius: 71px;
+    /* border: 2px solid #b4b4b4; */
+    background: rgb(58, 0, 44);
+    text-align: center;
+    box-sizing: border-box;
+  }
+  .QuestionnaireFormBottomCheckbox
+    input[type="checkbox"]:checked
+    + label::before {
+    content: "";
+    width: 23px;
+    height: 21px;
+    background-image: url(../../assets/icons/CheckboxChecked.svg);
+  }
+  .QuestionnaireBlock {
+    position: relative;
+    /* margin-top: 90px; */
+    /* margin-left: 120px; */
+
+    display: block;
+  }
+  .QuestionnaireTitle {
+    text-align: center;
+  }
+  .QuestionnaireDescription {
+    margin-top: 12px;
+    text-align: center;
+  }
+  .QuestionnaireButton {
+    margin-top: 54px;
+    margin-left: auto;
+    margin-right: auto;
+
+    display: flex;
+    width: 244px;
+    height: 59px;
+    padding: 16px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+
+    border-radius: 86px;
+    border: 1px solid var(--Linear, #660e4a);
+    background: linear-gradient(250deg, #660e4a 15.39%, #ff00c2 89.04%);
+  }
+  /*  */
+  .FillerImage {
+    position: relative;
+    z-index: 60;
+
+    /* height: auto; */
+    /* height: 127vw;
+    width: 100vw; */
+    /* max-width: 100vw; */
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1 / 1.2625;
+
+    pointer-events: none;
+    user-select: none;
+  }
+  .EmbeddedVideoBlock {
+    position: relative;
+    margin-top: -20px;
+  }
+  .EmbeddedVideoBlock2Img {
+    width: 76vw;
+    height: 76vw;
+  }
+  .EmbeddedVideoBlockContainer {
+    position: relative;
+    width: 293px;
+    height: 284px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    user-select: none;
+  }
+  .EmbeddedVideoBlockImg {
+    width: 293px;
+    height: 284px;
+  }
+  .EmbeddedVideoDescription::after {
+    /* position: absolute; */
+    /* left: 20%; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    content: "";
+    /* position: absolute; */
+    bottom: 0;
+    width: 260px;
+    height: 2px;
+    background-image: linear-gradient(250deg, #660e4a 15.39%, #ff00c2 89.04%);
+  }
+  /*  */
+  .line-2 {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .Pros {
+    position: relative;
+  }
+  .ProsIcon1 {
+    position: absolute;
+    left: -45px;
+  }
+  .ProsIcon2 {
+    position: absolute;
+    left: 45px;
+    top: 40px;
+  }
+  .ProsIcon3 {
+    position: absolute;
+    left: 35px;
+    top: 40px;
+  }
+  .ProsIcon4 {
+    position: absolute;
+    left: -45px;
+  }
+  .ProsDescription {
+    margin-top: 15px;
+
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .AllPros {
+    display: flex;
+    margin-top: 60px;
+    margin-left: 30px;
+    margin-right: 30px;
+    justify-content: center;
+    align-items: center;
+
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+
+    row-gap: 35px;
+    column-gap: 40px;
+  }
+  /*  */
+  .line-3 {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-top: 80px;
+    text-align: center;
+  }
+  .carousel {
+    width: 360px;
+  }
+  .Card {
+    display: inline-block;
+    position: relative;
+    display: flex;
+    align-items: center;
+
+    border-radius: 40px;
+    background: #f7f5fa;
+    /* box-shadow: 0px 4px 85px 30px rgba(255, 0, 194, 0.3); */
+
+    width: 359px;
+    height: 480px;
+
+    margin-left: 35px;
+    margin-right: 35px;
+  }
+  .CardImg {
+    /* width: 320px; */
+    width: 290px;
+    height: 401px;
+  }
+  .InteriorCardImg {
+    width: 1308px;
+    position: relative;
+    z-index: 1;
+  }
+  .CardBackground {
+    width: 359px;
+    height: 1230px;
+    position: absolute;
+    bottom: 0;
+    z-index: 40;
+    overflow: hidden;
+  }
+  .CardShadow {
+    position: absolute;
+    bottom: -2px;
+    left: -1px;
+    z-index: 40;
+  }
+  .CardName {
+    /* width: 359px; */
+    position: absolute;
+    /* bottom: 60px;
+    left: -90px; */
+    bottom: 46px;
+    left: 20px;
+    z-index: 50;
+  }
+  .CardDescription {
+    /* width: 359px; */
+    position: absolute;
+    /* bottom: 20px; */
+    /* left: -64px; */
+    bottom: 20px;
+    left: 20px;
+    z-index: 50;
+  }
+
+  .ReviewsPicturesScroll {
+    position: relative;
+    margin-top: 40px;
+  }
+  .ArrowLeftIcon {
+    position: absolute;
+    top: 220px;
+    left: 0;
+    z-index: 50;
+
+    margin-right: 30px;
+  }
+  .ArrowRightIcon {
+    position: absolute;
+    top: 220px;
+    right: 0;
+    z-index: 50;
+
+    margin-left: 30px;
+  }
+
+  /*  */
+  .line-4 {
+    position: relative;
+    margin: 0 auto;
+    /* overflow: hidden; */
+  }
+  .EmploymentDescription {
+    margin-top: 60px;
+
+    text-align: center;
+
+    color: #fff;
+    font-family: "GraphikLCG-Regular";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  .EmploymentStep {
+    position: relative;
+    margin: 0 auto;
+    width: 360px;
+  }
+  .EmploymentNumberNum {
+    display: block;
+  }
+  .EmploymentNumberNum1 {
+    position: absolute;
+  }
+  .EmploymentNumOne {
+    /* display: none; */
+    width: 0px;
+    height: 0px;
+  }
+  .EmploymentNumOneTablet {
+    display: none;
+  }
+  .EmploymentNumOneMobile {
+    position: absolute;
+    display: block;
+    top: -50px;
+    left: -45px;
+    max-width: 360px;
+    overflow: visible;
+
+    z-index: 0;
+  }
+  .EmloymentNumberCircle1 {
+    display: none;
+  }
+  .EmloymentNumberCircle1Mobile {
+    position: relative;
+    display: block;
+    margin-right: auto;
+    margin-left: 40%;
+    margin-top: 95px;
+    width: 200px;
+    height: 200px;
+
+    border-radius: 340px;
+    background: #ff00c2;
+    box-shadow: 0px 4px 85px 30px rgba(255, 0, 194, 0.5);
+
+    z-index: 30;
+  }
+  .EmploymentNumberText1 {
+    position: absolute;
+    top: 74px;
+    left: 184px;
+    font-size: 24px;
+
+    text-align: center;
+  }
+  .EmploymentLinePart1 {
+    position: relative;
+    display: block;
+    margin-top: 110px;
+    margin-left: auto;
+    margin-right: auto;
+
+    transform: rotate(90deg) scaleX(0.6);
+  }
+  .EmploymentTextPart1 {
+    position: relative;
+    margin-top: 100px;
+
+    text-align: center;
+  }
+
+  .EmploymentNumberNum2 {
+    position: absolute;
+    left: 80px;
+    top: 0px;
+  }
+  .EmploymentNumTwo {
+    display: none;
+  }
+  .EmploymentNumTwoTablet {
+    display: none;
+  }
+  .EmploymentNumTwoMobile {
+    position: absolute;
+    display: block;
+    top: -60px;
+    left: -70px;
+    max-width: 360px;
+  }
+  .EmloymentNumberCircle2 {
+    display: none;
+  }
+  .EmloymentNumberCircle2Mobile {
+    position: relative;
+    display: block;
+    margin-right: auto;
+    margin-left: 40%;
+    margin-top: 140px;
+    width: 200px;
+    height: 200px;
+
+    border-radius: 444px;
+    background: #ff00c2;
+    box-shadow: 0px 4px 85px 30px rgba(255, 0, 194, 0.5);
+  }
+  .EmploymentNumberText2 {
+    position: absolute;
+    top: 70px;
+    left: 154px;
+    font-size: 24px;
+
+    text-align: center;
+  }
+  .EmploymentLinePart2 {
+    position: relative;
+    display: block;
+    margin-top: 110px;
+    margin-left: auto;
+    margin-right: auto;
+
+    transform: rotate(90deg) scaleX(0.6);
+  }
+  .EmploymentTextPart2 {
+    position: relative;
+    margin-top: 100px;
+
+    text-align: center;
+  }
+  /*  */
+  .EmploymentNumberNum3 {
+    position: absolute;
+  }
+  .EmploymentNumThree {
+    display: none;
+  }
+  .EmploymentNumThreeTablet {
+    display: none;
+  }
+  .EmploymentNumThreeMobile {
+    position: absolute;
+    left: -20px;
+    top: -100px;
+  }
+  .EmloymentNumberCircle3 {
+    display: none;
+  }
+  .EmloymentNumberCircle3Mobile {
+    position: relative;
+    display: block;
+    margin-right: auto;
+    margin-left: 40%;
+    margin-top: 140px;
+    width: 200px;
+    height: 200px;
+
+    border-radius: 444px;
+    background: #ff00c2;
+    box-shadow: 0px 4px 85px 30px rgba(255, 0, 194, 0.5);
+  }
+  .EmploymentNumberText3 {
+    position: absolute;
+    top: 80px;
+    left: 194px;
+    font-size: 24px;
+
+    text-align: center;
+  }
+  .EmploymentLinePart3 {
+    position: relative;
+    display: block;
+    margin-top: 110px;
+    margin-left: auto;
+    margin-right: auto;
+
+    transform: rotate(90deg) scaleX(0.6);
+  }
+  .EmploymentTextPart3 {
+    position: relative;
+    margin-top: 100px;
+
+    text-align: center;
+  }
+  /*  */
+  .EmploymentNumberNum4 {
+    position: absolute;
+  }
+  .EmploymentNumFour {
+    display: none;
+  }
+  .EmploymentNumFourTablet {
+    position: absolute;
+    display: none;
+  }
+  .EmploymentNumFourMobile {
+    position: absolute;
+    top: -100px;
+    left: -60px;
+  }
+  .EmloymentNumberCircle4 {
+    display: none;
+  }
+  .EmloymentNumberCircle4Mobile {
+    position: relative;
+    display: block;
+    margin-right: auto;
+    margin-left: 40%;
+    margin-top: 140px;
+    width: 200px;
+    height: 200px;
+
+    border-radius: 444px;
+    background: #ff00c2;
+    box-shadow: 0px 4px 85px 30px rgba(255, 0, 194, 0.5);
+  }
+  .EmploymentNumberText4 {
+    position: absolute;
+    top: 80px;
+    left: 174px;
+    font-size: 24px;
+
+    text-align: center;
+  }
+  .EmploymentLinePart4 {
+    position: relative;
+    display: block;
+    margin-top: 110px;
+    margin-left: auto;
+    margin-right: auto;
+
+    transform: rotate(90deg) scaleX(0.6);
+  }
+  .EmploymentTextPart4 {
+    position: relative;
+    margin-top: 100px;
+
+    text-align: center;
+  }
+  /*  */
+  .line-5 {
+    display: block;
+    width: 100%;
+    margin: 70px auto auto auto;
+  }
+  .QuestionnaireButtonLine5 {
+    /* margin-left: 125px; */
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    width: 90%;
+    height: 105px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 103px;
+    opacity: 0.9;
+    background: #ff00c2;
+  }
+  /* .QuestionnaireButtonLine5Text {
+    font-size: 24px;
+  } */
+  /*  */
+  .line-6 {
+    margin-top: 120px;
+    text-align: center;
+  }
+  /* .FaqTable {
+    display: grid;
+    grid-template-columns: 510px;
+    grid-template-rows: 259px;
+    column-gap: 19px;
+    row-gap: 28px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 513px;
+    margin: 124px auto auto auto;
+  } */
+  .FaqBlock {
+    position: relative;
+    display: block;
+    z-index: 30;
+  }
+  .FaqDescription {
+    position: relative;
+    display: block;
+    z-index: 30;
+  }
+  .FaqTable {
+    margin-top: 100px;
+    width: 90vw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    row-gap: 30px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .FaqColumn {
+    width: 90vw;
+    /* width: 100%; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    row-gap: 30px;
+    margin-left: auto;
+    align-items: center;
+  }
+  .FaqCard {
+    position: relative;
+    /* exp */
+    width: 90vw;
+    max-width: 480px;
+    /* width: 350px; */
+    /* width: 510px; */
+    margin-left: 5px;
+
+    /* width: 100%; */
+    /* height: 259px; */
+    border-radius: 40px;
+    border: 1px solid #ff00c2;
+    background: rgba(55, 47, 53, 0.2);
+    backdrop-filter: blur(10px);
+    overflow: hidden;
+
+    transition: height 0.5s ease;
+  }
+  .FaqCardQuestion {
+    display: flex;
+    height: 250px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+
+    /* margin-top: 20px; */
+    /* padding: 47px; */
+
+    color: #fff;
+    font-family: "GraphikLCG-Regular";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .FaqCardArrow {
+    transition: transform 0.8s ease;
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
+  }
+  .FaqCardAnswer {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 20px 20px 20px;
+    margin-bottom: 54px;
+
+    /* display: block; */
+    /* margin-top: 46px; */
+
+    /* exp */
+    padding-left: 5px;
+    padding-right: 5px;
+
+    color: #fff;
+    font-family: "GraphikLCG-Extralight";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 22px;
+  }
+  .EmbeddedVideoBlockContainer2 {
+    position: relative;
+    width: 90vw;
+    height: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+  }
+
+  /*  */
+
+  .line-7 {
+    margin-top: 100px;
+  }
+  .IncomeCalculator {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 98vw;
+  }
+  .CalculatorMainGridTable {
+    position: relative;
+    display: flex;
+    width: 98vw;
+  }
+  .CalculatorMainGridTable::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 40px;
+    border: 1px solid #ff00c2;
+    background: rgba(55, 47, 53, 0.2);
+    backdrop-filter: blur(10px);
+    z-index: -1;
+    grid-row: 1/9;
+    grid-column: 1/11;
+  }
+  .CalculatorMainPhoto {
+    display: none;
+  }
+  .CalculatorMainPhotoMobile {
+    margin-top: 20px;
+    margin-bottom: 4px;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 96vw;
+    height: inherit;
+    aspect-ratio: 1.07;
+
+    border-radius: 0px 0px 40px 40px;
+  }
+  .CalculatorMainTitle {
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    color: #fff;
+    font-family: "GraphikLCG-Regular";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .CalculatorMainQuestion1 {
+    margin-top: 24px;
+    margin-left: 10px;
+    margin-right: 4px;
+
+    color: #fff;
+    font-family: "GraphikLCG-Light";
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+  }
+  .CalculatorMainAnswerGrid1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    margin-top: 24px;
+  }
+  .CalculatorBigButton {
+    display: flex;
+    width: 30vw;
+    height: 106px;
+    padding: 37px 0px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 30px;
+    border: 1px solid #ff00c2;
+    background: linear-gradient(
+      106deg,
+      rgba(55, 47, 53, 0.2) 38.84%,
+      rgba(55, 47, 53, 0) 135.04%
+    );
+    backdrop-filter: blur(10px);
+  }
+  .CalculatorBigButton.active {
+    background: linear-gradient(
+      106deg,
+      rgba(255, 0, 194, 0.2) 38.84%,
+      rgba(255, 0, 194, 0) 135.04%
+    );
+  }
+  .CalculatorSmallButton {
+    display: flex;
+    width: 30vw;
+    height: 106px;
+    padding: 37px 0px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 30px;
+    border: 1px solid #ff00c2;
+    background: linear-gradient(
+      106deg,
+      rgba(55, 47, 53, 0.2) 38.84%,
+      rgba(55, 47, 53, 0) 135.04%
+    );
+    backdrop-filter: blur(10px);
+  }
+  .CalculatorSmallButton.active {
+    background: linear-gradient(
+      106deg,
+      rgba(255, 0, 194, 0.2) 38.84%,
+      rgba(255, 0, 194, 0) 135.04%
+    );
+  }
+  .CalculatorMainAnswerGrid1Info {
+    display: none;
+  }
+  .CalculatorMainQuestion2 {
+    margin-top: 24px;
+    margin-left: 10px;
+    margin-right: 4px;
+
+    color: #fff;
+    font-family: "GraphikLCG-Light";
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+  }
+  .CalculatorMainAnswerGrid2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    margin-top: 24px;
+  }
+  .CalculatorMainAnswerGrid2Info {
+    display: none;
+  }
+  .CalculatorMainQuestion3 {
+    margin-top: 24px;
+    margin-left: 10px;
+    margin-right: 4px;
+
+    color: #fff;
+    font-family: "GraphikLCG-Light";
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+  }
+  .CalculatorMainAnswerGrid3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    row-gap: 10px;
+    flex-wrap: wrap;
+
+    margin-top: 24px;
+  }
+  .CalculatorMainAnswerGrid3Info {
+    display: none;
+  }
+  .CalculatorWeekly {
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 0;
+    padding-top: 30px;
+
+    width: 84vw;
+    height: 160px;
+    flex-shrink: 0;
+    border-radius: 40px;
+    border: 1px solid #fff;
+    background: rgba(55, 47, 53, 0.2);
+    backdrop-filter: blur(10px);
+  }
+  .CalculatorNum {
+    color: #fff;
+    font-family: "GraphikLCG-Regular";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    /* line-height: normal; */
+  }
+  .CalculatorText {
+    color: #fff;
+    font-family: "GraphikLCG-Light";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+  }
+  .CalculatorMonthly {
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 0;
+    padding-top: 30px;
+
+    width: 84vw;
+    height: 160px;
+    flex-shrink: 0;
+    border-radius: 40px;
+    border: 1px solid #fff;
+    background: rgba(55, 47, 53, 0.2);
+    backdrop-filter: blur(10px);
+  }
+  .CalculatorYearly {
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 0;
+    padding-top: 30px;
+
+    width: 84vw;
+    height: 160px;
+    flex-shrink: 0;
+    border-radius: 40px;
+    border: 1px solid #fff;
+    background: rgba(55, 47, 53, 0.2);
+    backdrop-filter: blur(10px);
+  }
+
+  /*  */
+
+  .line-8 {
+    margin-top: 60px;
+  }
+  .InteriorTitle {
+    text-align: center;
+
+    color: #fff;
+    font-family: "GraphikLCG-Regular";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  .InteriorSliderBlock * {
+    display: none;
+  }
+  .carouselInterior {
+    /* exp */
+    width: 360px;
+    /* width: 470px; */
+
+    display: flex;
+    cursor: pointer;
+    overflow: hidden;
+    user-select: none;
+  }
+  .carouselInterior * {
+    pointer-events: none;
+  }
+  .InteriorSliderCard {
+    /* width: 470px; */
+    flex-shrink: 0;
+    border-radius: 40px;
+    /* box-shadow: 0px 4px 85px 30px rgba(255, 0, 194, 0.3); */
+  }
+  .ScrollDistanceIndicatorInterior {
+    display: none;
+    margin-left: 12px;
+    /* margin-top: 50px; */
+    cursor: pointer;
+  }
+  .ScrollBarDistanceIndicatorInterior {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -30px;
+  }
+  .InteriorMasonry {
+    margin-top: 40px;
+    display: block;
+    position: relative;
+  }
+  .InteriorPicture {
+    display: block;
+    position: relative;
+
+    height: 100%;
+    width: 96vw;
+    max-width: 710px;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 14px;
+  }
+  .InteriorZoomableBlock {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+
+    max-width: 100vw;
+    max-height: 80vh;
+    height: auto;
+
+    transform: translate(-50%, -50%) scale(0);
+    transition: 100ms ease-in-out;
+    z-index: 50;
+  }
+  .InteriorZoomableBlock.active {
+    transform: translate(-50%, -50%) scale(1);
+  }
+  /*  */
+  .line-9 {
+    margin-top: 70px;
+  }
+  .FeaturesTitle {
+    text-align: center;
+    font-size: 36px;
+  }
+  .FeaturesDescription {
+    display: none;
+  }
+  .FeaturesTable {
+    margin-top: 57px;
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    row-gap: 65px;
+    column-gap: 26px;
+
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .FeatureTitle {
+    margin-top: 23px;
+  }
+  .FeatureDescription {
+    margin-top: 8px;
+  }
+  /*  */
+  .line-10 {
+    margin-top: 70px;
+    text-align: center;
+  }
+  .FyiTable {
+    width: 90vw;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    display: flex;
+    flex-flow: column;
+    flex-wrap: wrap;
+    gap: 140px;
+  }
+  .Fyi {
+    position: relative;
+  }
+  .FyiImage {
+    width: 90vw;
+    height: 90vw;
+
+    max-width: 370px;
+    max-height: 370px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .FyiContent {
+    position: absolute;
+    bottom: -110px;
+    left: 0px;
+
+    padding: 0 10px;
+
+    width: 90vw;
+    height: 219px;
+    display: inline-flex;
+    /* padding: 87px 76px 87px 73px; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* gap: 13px; */
+    row-gap: 30px;
+    flex-shrink: 0;
+    border-radius: 40px;
+    border: 1px solid #ff00c2;
+    background: rgba(55, 47, 53, 0.2);
+    backdrop-filter: blur(15px);
+  }
+  /*  */
+  .line-11 {
+    margin-top: 200px;
+    overflow: hidden;
+  }
+  .HiringTitle {
+    text-align: center;
+    font-size: 40px;
+  }
+  .HiringTable {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 200px;
+    row-gap: 115px;
+    /* width: 1556px; */
+    width: 90vw;
+    max-width: 720px;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .HiringPositionTitle {
+    margin-top: -50px;
+    position: relative;
+    z-index: 30;
+  }
+  .HiringPositionDescription {
+    margin-top: 25px;
+    position: relative;
+    z-index: 30;
+  }
+  .HiringPositionButton {
+    margin-top: 34px;
+    margin-left: auto;
+    margin-right: auto;
+
+    display: flex;
+    width: 175px;
+    height: 59px;
+    padding: 16px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 86px;
+    border: 1px solid #660e4a;
+    background: linear-gradient(250deg, #660e4a 15.39%, #ff00c2 89.04%);
+
+    position: relative;
+    z-index: 15;
+  }
+  .HiringPositionShadow {
+    position: absolute;
+    bottom: -145px;
+    /* bottom: -80px; */
+    left: 0;
+    z-index: 20;
+    /* z-index: -1; */
+  }
+  .HiringPosition1 {
+    max-width: 90vw;
+  }
+  .HiringPositionImageContainer {
+    position: relative;
+    display: inline-block;
+    z-index: 10;
+    width: 90vw;
+  }
+  .HiringPositionImage {
+    position: relative;
+    display: block;
+
+    width: 100%;
+    height: 100%;
+    max-width: 100vw;
+
+    z-index: 10;
+  }
+  .HiringPositionImageContainer1 {
+    display: block;
+    margin-left: 24px;
+  }
+  .HiringPositionBg {
+    display: none;
+  }
+  /* .HiringPositionImageMobile {
+    position: relative;
+    display: block;
+    max-width: 100vw;
+    z-index: 10;
+  } */
+  .ContactNotification {
+    width: 90vw;
+    max-width: 510px;
+    margin-top: 90px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /*  */
+  .line-12 {
+    margin-top: 110px;
+  }
+  .BlogBlock {
+    width: 98vw;
+    max-width: 510px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .BlogTitle {
+    text-align: center;
+  }
+  .BlogTable {
+    width: 98vw;
+    max-width: 510px;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    column-gap: 20px;
+    row-gap: 30px;
+  }
+  .BlogBigCard {
+    width: 98vw;
+    max-width: 509px;
+    margin-left: auto;
+    margin-right: auto;
+    /* height: 600px; */
+    border-radius: 40px;
+    border: 1px solid #ff00c2;
+    background: rgba(55, 47, 53, 0.2);
+    backdrop-filter: blur(10px);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .BlogSmallCard {
+    width: 98vw;
+    max-width: 509px;
+    margin-left: auto;
+    margin-right: auto;
+    /* height: 600px; */
+    border-radius: 40px;
+    border: 1px solid #ff00c2;
+    background: rgba(55, 47, 53, 0.2);
+    backdrop-filter: blur(10px);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .BlogBigCardPhoto {
+    display: none;
+  }
+  .BlogBigCardPhotoMobile {
+    width: 90vw;
+    max-width: 480px;
+    height: auto;
+    aspect-ratio: 1.792 / 1;
+
+    /* height: 250px; */
+    border-radius: 35px;
+    margin-top: 15px;
+  }
+  .BlogSmallCardPhoto {
+    object-fit: cover;
+    object-position: 0 0;
+
+    width: 90vw;
+    max-width: 480px;
+    height: auto;
+    aspect-ratio: 1.792 / 1;
+
+    /* height: 250px; */
+    border-radius: 35px;
+    margin-top: 15px;
+  }
+  .BlogSmallCardContent {
+    width: 90vw;
+    max-width: 480px;
+  }
+  .BlogBigCardTitle {
+    margin: 36px auto auto auto;
+    width: 90vw;
+    max-width: 480px;
+  }
+  .BlogSmallCardTitle {
+    margin: 36px auto auto auto;
+    width: 90vw;
+    max-width: 480px;
+  }
+  .BlogBigCardDescription {
+    margin: 18px auto auto auto;
+    /* width: 450px; */
+    width: 90vw;
+    max-width: 480px;
+    /* height: 76px; */
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+  }
+  .BlogSmallCardDescription {
+    margin: 18px auto 0px auto;
+  }
+  .BlogBigCardReactions {
+    display: flex;
+    width: 86vw;
+    max-width: 480px;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 31px;
+    margin-top: 30px;
+  }
+  .BlogSmallCardReactions {
+    display: flex;
+    width: 86vw;
+    max-width: 480px;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 31px;
+    margin-top: 30px;
+  }
+  .BlogBigCardReactionsDetails {
+    display: flex;
+    width: 244px;
+    height: 59px;
+    padding: 16px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 86px;
+    border: 1px solid #660e4a;
+    background: linear-gradient(250deg, #660e4a 15.39%, #ff00c2 89.04%);
+  }
+  .BlogRedirection {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 90px;
+
+    display: flex;
+    width: 90vw;
+    max-width: 465px;
+    height: 105px;
+    padding: 0px 28px 0px 28px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 103px;
+    opacity: 0.9;
+    background: #ff00c2;
+
+    color: #fff;
+    font-family: "GraphikLCG-Regular";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+    text-decoration: none;
+  }
+  /*  */
+  .line-13 {
+    margin-top: 90px;
+  }
+  .AdditionalInfoBlock {
+    width: 98vw;
+    /* min-width: 360px; */
+    padding: 25px 25px 0px 25px;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    border: 1px solid #ff00c2;
+    border-radius: 40px;
+    background: rgba(55, 47, 53, 0.2);
+    backdrop-filter: blur(10px);
+
+    overflow: hidden;
+    transition: height 0.5s ease;
+  }
+  /* .AdditionalInfoBlock.collapsed {
+    padding: 25px 25px 64px 25px;
+  } */
+  .AdditionalInfoBlockPadding {
+    position: relative;
+    margin: 25px 25px 60px 25px;
+  }
+  .AdditionalInfoBlockPadding.expanded {
+    margin: 25px 25px -10px 25px;
+  }
+  .AdditionalInfoDescription {
+    margin-top: 22px;
+  }
+  .AdditionalInfoArrow {
+    position: absolute;
+    bottom: -46px;
+    right: -26px;
+    transition: transform 0.8s ease;
+  }
+  .AdditionalInfoArrow.collapsed {
+    position: relative;
+    display: block;
+    margin: 0 0 24px auto;
+    transition: transform 0.8s ease;
+
+    bottom: 0px;
+    right: -30px;
+  }
+  /*  */
+  .line-14 {
+    margin-top: 70px;
+  }
+  .MapTemplate {
+    display: none;
+  }
+  .MapTemplateMobile {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 98vw;
+    max-width: 680px;
+    height: 70vh;
+    flex-shrink: 0;
+    border-radius: 40px;
+    background: lightgray 50%;
+    z-index: 0;
+  }
+  .MapTemplateMobileIframe {
+    /* width: 680px; */
+    /* height: 780px; */
+    width: 98vw;
+    max-width: 680px;
+    height: 70vh;
+  }
+  .ContactsTemplate {
+    display: block;
+    margin: 10px auto auto auto;
+
+    width: 98vw;
+    max-width: 470px;
+    /* height: 646px; */
+    flex-shrink: 0;
+    border-radius: 40px;
+    border: 1px solid #ff00c2;
+    background: rgba(255, 0, 194, 0.2);
+    backdrop-filter: blur(10px);
+  }
+  .ContactsTitle {
+    margin-top: 38px;
+    text-align: center;
+
+    background: var(--text-outline-primary-color);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    font-family: "GraphikLCG-Regular";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  .ContactsGrid {
+    position: relative;
+    display: grid;
+    grid-template-rows: 80px 50px 100px 100px 100px;
+
+    /* margin-left: 110px; */
+    /* margin-right: 111px; */
+    margin-top: 20px;
+
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    text-wrap: nowrap;
+  }
+  .ContactsLocation {
+    grid-row: 1/2;
+    grid-column: 1/2;
+    margin-left: auto;
+    margin-right: auto;
+
+    display: flex;
+  }
+  .ContactsLocationIcon {
+    display: none;
+  }
+  .ContactsLocationIconWhite {
+    grid-row: 1/2;
+    margin-top: 10px;
+  }
+  .ContactsLocationText {
+    margin-left: 30px;
+
+    color: #fff;
+    font-family: "GraphikLCG-Extralight";
+    /* font-size: 1.5rem; */
+    font-size: 24px;
+    /* font-size: 14px; */
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+  }
+  .ContactsLocationTextSpan {
+    color: #fff;
+    font-family: "GraphikLCG-Regular";
+    /* font-size: 1.5rem; */
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .MetroText {
+    position: relative;
+    grid-row: 2/3;
+    grid-column: 1/2;
+
+    /* margin-left: auto;
+    margin-right: 10px; */
+
+    margin-left: 100px;
+    margin-right: auto;
+
+    color: #fff;
+    font-family: "GraphikLCG-Extralight";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+  }
+  .ContactsLocationTextSpan {
+    color: #fff;
+    font-family: "GraphikLCG-Regular";
+    /* font-size: 1.5rem; */
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .ContactsPhone {
+    grid-row: 3/4;
+    grid-column: 1/2;
+    margin-left: 20px;
+    margin-right: auto;
+    margin-top: 10px;
+
+    display: flex;
+  }
+  .ContactsPhoneNumber {
+    margin-left: 30px;
+    /* position: absolute;
+    left: 174px;
+    top: 256px; */
+  }
+  /*.ContactsPhoneNumberSpan {
+     position: absolute;
+    left: 0px;
+    top: 30px; 
+  }*/
+  .ContactsTelegram {
+    grid-row: 4/5;
+    grid-column: 1/2;
+    margin-left: 20px;
+    margin-right: auto;
+
+    display: flex;
+
+    text-decoration: none;
+  }
+  .ContactsTelegramTag {
+    margin-left: 27px;
+  }
+  .ContactsInstagram {
+    grid-row: 5/6;
+    grid-column: 1/2;
+    margin-left: 20px;
+    margin-right: auto;
+
+    display: flex;
+  }
+  .ContactsInstagramTag {
+    margin-left: 27px;
+  }
+  .ContactsTelegramTagSpan {
+    display: block;
+    margin-top: 5px;
+  }
+  .ContactsTelegramTagSpan,
+  .ContactsInstagramTagSpan {
+    text-decoration: underline;
+  }
+  .ContactsQuestionnaire {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+    width: 94vw;
+    max-width: 430px;
+    min-width: 340px;
+    /* width: 376px; */
+    height: 74px;
+    padding: 25px 45px 25px 46px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 103px;
+    opacity: 0.9;
+    background: #ff00c2;
+
+    color: #fff;
+    font-family: "GraphikLCG-Regular";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  /*  */
+  .line-15 {
+    margin-top: 50px;
+    position: relative;
+  }
+  .FooterTopLine {
+    display: block;
+    position: relative;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .FooterGrid {
+    width: 80vw;
+    min-height: 100px;
+
+    margin-top: 18px;
+  }
+  .PrivacyPolicyLink {
+    text-decoration: underline;
+    background-color: inherit;
+    margin-top: 12px;
+    margin-left: 10px;
+    text-align: left;
+  }
+  .Trademark {
+    text-decoration: underline;
+    margin-top: 26px;
+    margin-left: 10px;
+  }
+  .FooterGridArrowUp {
+    position: absolute;
+    right: 26px;
+    top: 20px;
+    /* margin-top: 50px; */
+    cursor: pointer;
+  }
+}
+
+@media (min-width: 1px) {
+  /* Popups */
+
+  .QuestionnairePopupBlock.active {
+    transform: translate(-50%, -50%) scale(1);
+  }
+  .TyPopupBlock.active {
+    transform: translate(-50%, -50%) scale(1);
+  }
+  .QuestionnaireForm {
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 20px; */
+    margin-top: 30px;
+  }
+  .QuestionnaireForm input::placeholder {
+    color: #ffffff;
+    opacity: 0.5;
+
+    font-family: "GraphikLCG-Light";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 24px;
+  }
+  .QuestionnaireForm input:focus {
+    /* border: 3px solid #fff; */
+    outline: none;
+  }
+
+  /* .QuestionnaireFormInputBorder {
+    border: 2px solid #b4b4b4;
+  }
+  .QuestionnaireFormInputBorder:focus {
+    border: 3px solid #fff;
+  } */
+  .QuestionnaireFormTop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 14px;
+
+    max-width: 96vw;
+  }
+  .QuestionnaireFormTopExperience {
+    -webkit-appearance: none; /* Safari */
+    -moz-appearance: none; /* Firefox */
+    appearance: none; /* Standard syntax */
+
+    text-align-last: center;
+    justify-content: center;
+    text-align: -moz-center;
+    text-align: -webkit-center;
+    text-align: center;
+
+    /* background-color: red; */
+
+    color: #ffffff73;
+    font-family: "GraphikLCG-Light";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 24px;
+
+    border: 2px solid #b4b4b4;
+  }
+  .QuestionnaireFormTopExperience.isDeviceIos {
+    padding-left: 12%;
+    padding-right: auto;
+  }
+  .QuestionnaireFormTopExperience:focus {
+    outline: none;
+    border: none;
+    box-shadow: inset 0 0 0 3px #fff;
+  }
+  .QuestionnaireFormTopExperience option {
+    background-color: rgba(94, 0, 72, 0.7);
+  }
+  .selected-option {
+    color: #fff;
+  }
+  .QuestionnaireFormMiddle {
+    /* exp */
+    /* max-width: 360px; */
+
+    margin-top: 20px;
+    max-width: 96vw;
+  }
+  .QuestionnaireFormBottom {
+    max-width: 90vw;
+  }
+  .QuestionnaireFormMiddleDescription {
+    margin-left: 20px;
+
+    font-family: "GraphikLCG-Regular";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+  }
+  .QuestionnaireFormMiddleAttachBlock {
+    margin-top: 10px;
+    margin-left: 16px;
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    max-width: 90vw;
+  }
+  .QuestionnaireFormMiddleButton {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+    background: rgb(58, 0, 44);
+    border: double 1px transparent;
+    background-image: linear-gradient(rgb(58, 0, 44), rgb(58, 0, 44)),
+      linear-gradient(250deg, #660e4a 15.39%, #ff00c2 89.04%);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+
+    border-radius: 40px;
+    width: 200px;
+    height: 40px;
+    font-family: "GraphikLCG-Regular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    color: #ffffff;
+
+    text-align: center;
+  }
+  .QuestionnaireFormMiddleFileName {
+    max-width: 190px;
+    text-decoration: underline;
+    color: #ffffff;
+
+    font-family: "GraphikLCG-Regular";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 14px;
+    opacity: 0.5;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .QuestionnaireFormBottomCheckbox {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: auto;
+    max-width: 99%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .QuestionnaireFormBottomCheckbox input[type="checkbox"] {
+    /* cursor: pointer; */
+    opacity: 0;
+    position: absolute;
+  }
+  .QuestionnaireFormBottomCheckbox input[type="checkbox"] + label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  .QuestionnaireFormBottomCheckboxButton {
+    display: block;
+    /* width: 100px; */
+  }
+  .QuestionnaireFormBottomCheckboxText {
+    display: block;
+    width: 400px;
+    max-width: 96vw;
+  }
+  .QuestionnaireFormBottomCheckboxFont {
+    font-family: "GraphikLCG-Light";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 14px;
+    color: #ffffff;
+  }
+  .invalid-checkbox-font {
+    font-family: "GraphikLCG-Light";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 14px;
+    color: #ff1818;
+  }
+  .QuestionnaireFormBottomCommitButton {
+    display: block;
+    /* width: 490px; */
+    width: 89%;
+    max-width: 96vw;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    background: linear-gradient(250.46deg, #660e4a 15.39%, #ff00c2 89.04%);
+    border-radius: 71px;
+
+    font-family: "GraphikLCG-Regular";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #ffffff;
+  }
+
+  .EmbeddedVideoOverlayOne {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%) scale(0);
+    transition: 100ms ease-in-out;
+    z-index: 50;
+  }
+  .EmbeddedVideoOverlayOne.active {
+    transform: translate(-50%, -50%) scale(1);
+  }
+  .EmbeddedVideoYT {
+    aspect-ratio: 16 / 9;
+    max-width: 100vw;
+    max-height: 80vh;
+    position: relative;
+    z-index: 1000;
+  }
+
+  .EmbeddedVideoOverlayTwo {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%) scale(0);
+    transition: 100ms ease-in-out;
+    z-index: 50;
+  }
+  .EmbeddedVideoOverlayTwo.active {
+    transform: translate(-50%, -50%) scale(1);
+  }
+  .EmbeddedVideoYT2 {
+    aspect-ratio: 16 / 9;
+    width: 100vw;
+    max-height: 80vh;
+  }
+
+  /* .IframeResponsiveWrapper {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+  } */
+
+  /* line 1 */
+
+  .EmbeddedVideoDescription {
+    margin-top: 25px;
+    cursor: pointer;
+
+    text-align: center;
+    position: relative;
+  }
+  /* line 3 */
+  .CardBackground {
+    position: absolute;
+    bottom: 0;
+    z-index: 40;
+  }
+
+  .ReviewsPicturesScroll {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .ArrowLeftIcon {
+    margin-right: 30px;
+  }
+  .ArrowRightIcon {
+    margin-left: 30px;
+  }
+
+  .carousel {
+    display: flex;
+    cursor: pointer;
+    overflow: hidden;
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    user-select: none;
+    /* scroll-behavior: smooth; */
+  }
+  .carousel > :nth-child(2),
+  .carousel > :nth-child(7),
+  .carousel > :nth-child(12) {
+    background: #1a1717;
+  }
+  .carousel > :nth-child(1),
+  .carousel > :nth-child(6),
+  .carousel > :nth-child(11),
+  .carousel > :nth-child(3),
+  .carousel > :nth-child(8),
+  .carousel > :nth-child(13),
+  .carousel > :nth-child(4),
+  .carousel > :nth-child(9),
+  .carousel > :nth-child(14) {
+    background: #f7f5fa;
+  }
+  .carousel > :nth-child(5),
+  .carousel > :nth-child(10),
+  .carousel > :nth-child(15) {
+    background: #a47f8a;
+  }
+  .carousel * {
+    pointer-events: none;
+  }
+
+  .dragging {
+    scroll-behavior: auto;
+    cursor: grab;
+  }
+
+  .draggingInterior {
+    scroll-behavior: auto;
+    cursor: grab;
+  }
+
+  .ScrollDistanceIndicator {
+    margin-left: 12px;
+    margin-top: 50px;
+    cursor: pointer;
+  }
+
+  /* line-12 */
+}

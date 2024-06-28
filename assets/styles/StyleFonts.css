@@ -1,0 +1,436 @@
+/* font29 is available */
+
+@media (min-width: 1601px) {
+  /* color: #fff */
+
+  .font14 {
+    color: #fff;
+    font-family: "GraphikLCG-Regular";
+    /* font-size: 2rem; */
+    font-size: 32px;
+    /* font-size: 18px; */
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .font18 {
+    color: #fff;
+    font-family: "GraphikLCG-Regular";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  /* color: linear-gradient(250deg, #660E4A 15.39%, #FF00C2 89.04%) */
+  /* background: linear-gradient(250deg, #660E4A 15.39%, #FF00C2 89.04%) */
+
+  /* background: linear-gradient(250deg, #660E4A 15.39%, #FF00C2 89.04%) */
+
+  .font17 {
+    background: var(--text-outline-primary-color);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    font-family: "GraphikLCG-Regular";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  .font6 {
+    background: var(--text-outline-primary-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    background-clip: text;
+    font-family: "GraphikLCG-Regular";
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  /* color: #696969 */
+
+  /* color: #FF00C2 */
+
+  /* no color */
+}
+@media (min-width: 721px) and (max-width: 1600px) {
+  /* color: #fff */
+
+  .font14 {
+    color: #fff;
+    font-family: "GraphikLCG-Regular";
+    /* font-size: 2rem; */
+    font-size: 32px;
+    /* font-size: 18px; */
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .font18 {
+    color: #fff;
+    font-family: "GraphikLCG-Regular";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  /* color: linear-gradient(250deg, #660E4A 15.39%, #FF00C2 89.04%) */
+  /* background: linear-gradient(250deg, #660E4A 15.39%, #FF00C2 89.04%) */
+
+  /* background: linear-gradient(250deg, #660E4A 15.39%, #FF00C2 89.04%) */
+
+  .font17 {
+    background: var(--text-outline-primary-color);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    font-family: "GraphikLCG-Regular";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  .font6 {
+    background: var(--text-outline-primary-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    background-clip: text;
+    font-family: "GraphikLCG-Regular";
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  /* color: #696969 */
+
+  /* color: #FF00C2 */
+
+  /* no color */
+}
+@media (min-width: 1px) and (max-width: 720px) {
+  /* color: #fff */
+
+  .font14 {
+    color: #fff;
+    font-family: "GraphikLCG-Regular";
+    /* font-size: 2rem; */
+    font-size: 22px;
+    /* font-size: 18px; */
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .font18 {
+    color: #fff;
+    font-family: "GraphikLCG-Regular";
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  /* color: linear-gradient(250deg, #660E4A 15.39%, #FF00C2 89.04%) */
+  /* background: linear-gradient(250deg, #660E4A 15.39%, #FF00C2 89.04%) */
+
+  /* background: linear-gradient(250deg, #660E4A 15.39%, #FF00C2 89.04%) */
+
+  .font17 {
+    background: var(--text-outline-primary-color);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    font-family: "GraphikLCG-Regular";
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  .font6 {
+    background: var(--text-outline-primary-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    background-clip: text;
+    font-family: "GraphikLCG-Regular";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  /* color: #696969 */
+
+  /* color: #FF00C2 */
+
+  /* no color */
+}
+@media (min-width: 1px) {
+  /* color: #fff */
+
+  .font1 {
+    color: #fff;
+    font-family: "GraphikLCG-Extralight";
+    font-size: 16px;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 18px;
+  }
+  .font28 {
+    color: #fff;
+    font-family: "GraphikLCG-Light";
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 16px;
+  }
+  .font3 {
+    color: #fff;
+    font-family: "GraphikLCG-Regular";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+  }
+  .font15 {
+    color: #fff;
+    font-family: "GraphikLCG-Regular";
+    /* font-size: 1rem; */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .font9 {
+    color: #fff;
+    font-family: "GraphikLCG-Extralight";
+    /* font-size: 1.5rem; */
+    font-size: 24px;
+    /* font-size: 14px; */
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+  }
+  .font2 {
+    color: #fff;
+    font-family: "GraphikLCG-Regular";
+    /* font-size: 1.5rem; */
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  .font16 {
+    color: #fff;
+    font-family: "GraphikLCG-Regular";
+    /* font-size: 1.5rem; */
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .font26 {
+    color: #fff;
+    font-family: "GraphikLCG-Regular";
+    /* font-size: 1.6rem; */
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .font19 {
+    color: #fff;
+    font-family: "GraphikLCG-Regular";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .font24 {
+    color: #fff;
+    font-family: "GraphikLCG-Regular";
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .font13 {
+    color: #fff;
+    font-family: "GraphikLCG-Regular";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  .font25 {
+    color: #fff;
+    font-family: "GraphikLCG-Regular";
+    /* font-size: 2.5rem; */
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+  }
+  .font7 {
+    color: #fff;
+    font-family: "GraphikLCG-Regular";
+    /* font-size: 3rem; */
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  /* color: linear-gradient(250deg, #660E4A 15.39%, #FF00C2 89.04%) */
+  /* background: linear-gradient(250deg, #660E4A 15.39%, #FF00C2 89.04%) */
+
+  .font12 {
+    color: var(--text-outline-primary-color);
+    background: var(--text-outline-primary-color);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    font-family: "GraphikLCG-Regular";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+  }
+
+  /* background: linear-gradient(250deg, #660E4A 15.39%, #FF00C2 89.04%) */
+
+  .font22 {
+    background: var(--text-outline-primary-color);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    font-family: "GraphikLCG-Regular";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+  }
+  .font21 {
+    background: var(--text-outline-primary-color);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    font-family: "GraphikLCG-Regular";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .font27 {
+    background: var(--text-outline-primary-color);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    font-family: "GraphikLCG-Bold";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .font20 {
+    background: var(--text-outline-primary-color);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    font-family: "GraphikLCG-Regular";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  .font10 {
+    background: var(--text-outline-primary-color);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    font-family: "GraphikLCG-Regular";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  /* color: #696969 */
+
+  .font8 {
+    color: #696969;
+    font-family: "GraphikLCG-Regular";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+  }
+
+  /* color: #FF00C2 */
+
+  .font23 {
+    color: #ff00c2;
+    font-family: "GraphikLCG-Regular";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  /* no color */
+
+  .font4 {
+    /* color:  */
+    font-family: "Gwendolyn-Regular";
+    font-size: 600px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .font5 {
+    /* color:  */
+    font-family: "Gwendolyn-Regular";
+    font-size: 600px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .font11 {
+    /* color:  */
+    font-family: "Gwendolyn-Regular";
+    font-size: 1000px;
+    line-height: 1200px;
+    font-style: normal;
+    font-weight: 400;
+  }
+}
